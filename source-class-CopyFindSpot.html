@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+
+	<title>File app/models/CopyFindSpot.php</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li>
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Analytics.html">
+							Analytics						</a>
+							</li>
+					<li>
+						<a href="package-Calendar.html">
+							Calendar						</a>
+							</li>
+					<li>
+						<a href="package-Controller.html">
+							Controller<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Controller.Action.html">
+							Action<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Controller.Action.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="package-Controller.Action.Ajax.html">
+							Ajax						</a>
+							</li>
+					<li>
+						<a href="package-Controller.Action.Helper.html">
+							Helper						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Controller.Plugin.html">
+							Plugin						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Curl.html">
+							Curl						</a>
+							</li>
+					<li>
+						<a href="package-Db.html">
+							Db<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Db.Table.html">
+							Table<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Db.Table.Abstract.html">
+							Abstract						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-Exception.html">
+							Exception						</a>
+							</li>
+					<li>
+						<a href="package-Exif.html">
+							Exif<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Exif.Exception.html">
+							Exception						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Exporter.html">
+							Exporter						</a>
+							</li>
+					<li>
+						<a href="package-Filter.html">
+							Filter						</a>
+							</li>
+					<li>
+						<a href="package-Form.html">
+							Form						</a>
+							</li>
+					<li>
+						<a href="package-Generator.html">
+							Generator						</a>
+							</li>
+					<li>
+						<a href="package-Geo.html">
+							Geo<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Geo.Exception.html">
+							Exception						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="package-OaiPmhRepository.html">
+							OaiPmhRepository<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-OaiPmhRepository.Libraries.html">
+							Libraries						</a>
+							</li>
+					<li>
+						<a href="package-OaiPmhRepository.MetadataFormats.html">
+							MetadataFormats						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-PAS.html">
+							PAS<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Acl.html">
+							Acl						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Controller.html">
+							Controller<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Controller.Action.html">
+							Action<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Controller.Action.Action.html">
+							Action						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Controller.Action.Admin.html">
+							Admin<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Controller.Action.Admin.Admin.html">
+							Admin						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li>
+						<a href="package-Pas.Db.html">
+							Db<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Db.Table.html">
+							Table<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Db.Table.Abstract.html">
+							Abstract						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-Pas.Exif.html">
+							Exif						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Filter.html">
+							Filter<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Filter.Interface.html">
+							Interface						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Form.html">
+							Form<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Form.Element.html">
+							Element						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Generator.html">
+							Generator						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.html">
+							Geo<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Geo.Edina.html">
+							Edina<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Geo.Edina.ClosestMatchSearch.html">
+							ClosestMatchSearch						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.FeatureTypes.html">
+							FeatureTypes						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.FootprintLookup.html">
+							FootprintLookup						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.NameAndFeatureSearch.html">
+							NameAndFeatureSearch						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.NameSearch.html">
+							NameSearch						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.PostCodeSearch.html">
+							PostCodeSearch						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.SpatialNameSearch.html">
+							SpatialNameSearch						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Edina.UniqueNameSearch.html">
+							UniqueNameSearch						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Geo.GridCalc.html">
+							GridCalc						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Mapit.html">
+							Mapit<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Geo.Mapit.Areas.html">
+							Areas						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Mapit.Point.html">
+							Point						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Geo.Mapit.Postcode.html">
+							Postcode						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-Pas.OaiPmhRepository.html">
+							OaiPmhRepository<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.OaiPmhRepository.Libraries.html">
+							Libraries						</a>
+							</li>
+					<li>
+						<a href="package-Pas.OaiPmhRepository.Metadata.html">
+							Metadata						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Oauth.html">
+							Oauth						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Service.html">
+							Service<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Service.Domesday.html">
+							Domesday						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Service.Geo.html">
+							Geo						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Service.OpenCalais.html">
+							OpenCalais						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Service.OpenPlaques.html">
+							OpenPlaques						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Solr.html">
+							Solr						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.html">
+							twfy<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.twfy.Constituencies.html">
+							Constituencies						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.Constituency.html">
+							Constituency						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.Geometry.html">
+							Geometry						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.Hansard.html">
+							Hansard						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.MpInfo.html">
+							MpInfo						</a>
+							</li>
+					<li>
+						<a href="package-Pas.twfy.Mps.html">
+							Mps						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.Validate.html">
+							Validate<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.Validate.Authorise.html">
+							Authorise						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.View.html">
+							View<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.View..html">
+							<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.View..Helper.html">
+							Helper						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Pas.View.Helper.html">
+							Helper<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Pas.View.Helper.Abstract.html">
+							Abstract						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-Pas.Yql.html">
+							Yql						</a>
+							</li>
+					<li>
+						<a href="package-Pas.Zoomify.html">
+							Zoomify						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-RDF.html">
+							RDF<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-RDF.Client.html">
+							Client						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Service.html">
+							Service						</a>
+							</li>
+					<li>
+						<a href="package-Solr.html">
+							Solr<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Solr.Handler.html">
+							Handler						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Twfy.html">
+							Twfy						</a>
+							</li>
+					<li>
+						<a href="package-User.html">
+							User<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-User.Details.html">
+							Details						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Validate.html">
+							Validate						</a>
+							</li>
+					<li>
+						<a href="package-VCard.html">
+							VCard						</a>
+							</li>
+					<li>
+						<a href="package-View.html">
+							View<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-View.Helper.html">
+							Helper<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-View.Helper.Abstract.html">
+							Abstract						</a>
+							</li>
+					<li>
+						<a href="package-View.Helper.Href.html">
+							Href						</a>
+							</li>
+					<li>
+						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
+							WhatYouWantToDoAdmin						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-Yql.html">
+							Yql<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Yql.Oauth.html">
+							Oauth						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Zend.html">
+							Zend<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Zend.Application.html">
+							Application<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Zend.Application.Bootstrap.html">
+							Bootstrap						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-Zend.Validate.html">
+							Validate						</a>
+							</li>
+					<li>
+						<a href="package-Zend.View.html">
+							View<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Zend.View.Helper.html">
+							Helper						</a>
+							</li>
+								</ul></li></ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AbcNumbers.html">AbcNumbers</a></li>
+				<li><a href="class-About_AlumniController.html">About_AlumniController</a></li>
+				<li><a href="class-About_ContactUsController.html">About_ContactUsController</a></li>
+				<li><a href="class-About_IndexController.html">About_IndexController</a></li>
+				<li><a href="class-About_LogoAndBrandingController.html">About_LogoAndBrandingController</a></li>
+				<li><a href="class-About_VacanciesController.html">About_VacanciesController</a></li>
+				<li><a href="class-AcceptUpgradeForm.html">AcceptUpgradeForm</a></li>
+				<li><a href="class-AccountForm.html">AccountForm</a></li>
+				<li><a href="class-AccountUpgradeForm.html">AccountUpgradeForm</a></li>
+				<li><a href="class-AccreditedMuseums.html">AccreditedMuseums</a></li>
+				<li><a href="class-AccreditedRegions.html">AccreditedRegions</a></li>
+				<li><a href="class-AccreditedStatus.html">AccreditedStatus</a></li>
+				<li><a href="class-AcronymForm.html">AcronymForm</a></li>
+				<li><a href="class-Acronyms.html">Acronyms</a></li>
+				<li><a href="class-ActivateForm.html">ActivateForm</a></li>
+				<li><a href="class-ActivityForm.html">ActivityForm</a></li>
+				<li><a href="class-AddAvatarForm.html">AddAvatarForm</a></li>
+				<li><a href="class-AddDenomToRulerForm.html">AddDenomToRulerForm</a></li>
+				<li><a href="class-AddFloRallyForm.html">AddFloRallyForm</a></li>
+				<li><a href="class-AddMedievalTypeForm.html">AddMedievalTypeForm</a></li>
+				<li><a href="class-AddMintToRulerForm.html">AddMintToRulerForm</a></li>
+				<li><a href="class-AddReverseToRulerForm.html">AddReverseToRulerForm</a></li>
+				<li><a href="class-AddRulerImageForm.html">AddRulerImageForm</a></li>
+				<li><a href="class-AddStaffLogoForm.html">AddStaffLogoForm</a></li>
+				<li><a href="class-AddStaffPhotoForm.html">AddStaffPhotoForm</a></li>
+				<li><a href="class-AddTypeToRulerForm.html">AddTypeToRulerForm</a></li>
+				<li><a href="class-Admin_AcronymsController.html">Admin_AcronymsController</a></li>
+				<li><a href="class-Admin_CommentsController.html">Admin_CommentsController</a></li>
+				<li><a href="class-Admin_ConfigurationController.html">Admin_ConfigurationController</a></li>
+				<li><a href="class-Admin_ContactsController.html">Admin_ContactsController</a></li>
+				<li><a href="class-Admin_ContentController.html">Admin_ContentController</a></li>
+				<li><a href="class-Admin_CoronersController.html">Admin_CoronersController</a></li>
+				<li><a href="class-Admin_ErrorsController.html">Admin_ErrorsController</a></li>
+				<li><a href="class-Admin_EventsController.html">Admin_EventsController</a></li>
+				<li><a href="class-Admin_HelpController.html">Admin_HelpController</a></li>
+				<li><a href="class-Admin_HerController.html">Admin_HerController</a></li>
+				<li><a href="class-Admin_IndexController.html">Admin_IndexController</a></li>
+				<li><a href="class-Admin_InstitutionsController.html">Admin_InstitutionsController</a></li>
+				<li><a href="class-Admin_MessagesController.html">Admin_MessagesController</a></li>
+				<li><a href="class-Admin_NewsController.html">Admin_NewsController</a></li>
+				<li><a href="class-Admin_NumismaticsController.html">Admin_NumismaticsController</a></li>
+				<li><a href="class-Admin_OauthController.html">Admin_OauthController</a></li>
+				<li><a href="class-Admin_QuotesController.html">Admin_QuotesController</a></li>
+				<li><a href="class-Admin_ResearchController.html">Admin_ResearchController</a></li>
+				<li><a href="class-Admin_RolesController.html">Admin_RolesController</a></li>
+				<li><a href="class-Admin_SearchController.html">Admin_SearchController</a></li>
+				<li><a href="class-Admin_SystemController.html">Admin_SystemController</a></li>
+				<li><a href="class-Admin_TerminologyController.html">Admin_TerminologyController</a></li>
+				<li><a href="class-Admin_UsersController.html">Admin_UsersController</a></li>
+				<li><a href="class-Admin_VacanciesController.html">Admin_VacanciesController</a></li>
+				<li><a href="class-Admin_VolunteersController.html">Admin_VolunteersController</a></li>
+				<li><a href="class-AdvancedHoardsSearchForm.html">AdvancedHoardsSearchForm</a></li>
+				<li><a href="class-AdvancedSearchForm.html">AdvancedSearchForm</a></li>
+				<li><a href="class-AgreedTreasureValuations.html">AgreedTreasureValuations</a></li>
+				<li><a href="class-AjaxController.html">AjaxController</a></li>
+				<li><a href="class-AllenTypes.html">AllenTypes</a></li>
+				<li><a href="class-Analytics_AjaxController.html">Analytics_AjaxController</a></li>
+				<li><a href="class-Analytics_AudienceController.html">Analytics_AudienceController</a></li>
+				<li><a href="class-Analytics_BrowsersController.html">Analytics_BrowsersController</a></li>
+				<li><a href="class-Analytics_ContentController.html">Analytics_ContentController</a></li>
+				<li><a href="class-Analytics_IndexController.html">Analytics_IndexController</a></li>
+				<li><a href="class-Analytics_MobileController.html">Analytics_MobileController</a></li>
+				<li><a href="class-Analytics_SocialController.html">Analytics_SocialController</a></li>
+				<li><a href="class-Analytics_TechnologyController.html">Analytics_TechnologyController</a></li>
+				<li><a href="class-Analytics_TrafficController.html">Analytics_TrafficController</a></li>
+				<li><a href="class-AnalyticsFilterForm.html">AnalyticsFilterForm</a></li>
+				<li><a href="class-ApproveReject.html">ApproveReject</a></li>
+				<li><a href="class-ArchaeologicalContexts.html">ArchaeologicalContexts</a></li>
+				<li><a href="class-ArchaeologicalFeatures.html">ArchaeologicalFeatures</a></li>
+				<li><a href="class-ArchaeologicalLandscape.html">ArchaeologicalLandscape</a></li>
+				<li><a href="class-ArchaeologicalSiteClass.html">ArchaeologicalSiteClass</a></li>
+				<li><a href="class-Archaeology.html">Archaeology</a></li>
+				<li><a href="class-ArchaeologyAudit.html">ArchaeologyAudit</a></li>
+				<li><a href="class-ArchaeologyForm.html">ArchaeologyForm</a></li>
+				<li><a href="class-ArtefactLinkForm.html">ArtefactLinkForm</a></li>
+				<li><a href="class-Bibliography.html">Bibliography</a></li>
+				<li><a href="class-Bookmarks.html">Bookmarks</a></li>
+				<li><a href="class-Bootstrap.html">Bootstrap</a></li>
+				<li><a href="class-Bronzeage_IndexController.html">Bronzeage_IndexController</a></li>
+				<li><a href="class-Bronzeage_ObjectsController.html">Bronzeage_ObjectsController</a></li>
+				<li><a href="class-ByzantineCoinForm.html">ByzantineCoinForm</a></li>
+				<li><a href="class-ByzantineCoins_DenominationsController.html">ByzantineCoins_DenominationsController</a></li>
+				<li><a href="class-ByzantineCoins_IndexController.html">ByzantineCoins_IndexController</a></li>
+				<li><a href="class-ByzantineCoins_MintsController.html">ByzantineCoins_MintsController</a></li>
+				<li><a href="class-ByzantineCoins_RulersController.html">ByzantineCoins_RulersController</a></li>
+				<li><a href="class-ByzantineNumismaticSearchForm.html">ByzantineNumismaticSearchForm</a></li>
+				<li><a href="class-Calendar.html">Calendar</a></li>
+				<li><a href="class-CalendarForm.html">CalendarForm</a></li>
+				<li><a href="class-CategoriesCoins.html">CategoriesCoins</a></li>
+				<li><a href="class-ChangePasswordForm.html">ChangePasswordForm</a></li>
+				<li><a href="class-ChangeWorkFlowForm.html">ChangeWorkFlowForm</a></li>
+				<li><a href="class-CoinClassForm.html">CoinClassForm</a></li>
+				<li><a href="class-CoinClassifications.html">CoinClassifications</a></li>
+				<li><a href="class-Coins.html">Coins</a></li>
+				<li><a href="class-CoinsAudit.html">CoinsAudit</a></li>
+				<li><a href="class-CoinSummary.html">CoinSummary</a></li>
+				<li><a href="class-CoinSummaryForm.html">CoinSummaryForm</a></li>
+				<li><a href="class-CoinSummarySearchForm.html">CoinSummarySearchForm</a></li>
+				<li><a href="class-CoinXClass.html">CoinXClass</a></li>
+				<li><a href="class-CommentFindForm.html">CommentFindForm</a></li>
+				<li><a href="class-CommentOnErrorFindForm.html">CommentOnErrorFindForm</a></li>
+				<li><a href="class-Comments.html">Comments</a></li>
+				<li><a href="class-Completeness.html">Completeness</a></li>
+				<li><a href="class-ConfigureCoinCopyForm.html">ConfigureCoinCopyForm</a></li>
+				<li><a href="class-ConfigureFindCopyForm.html">ConfigureFindCopyForm</a></li>
+				<li><a href="class-ConfigureFindSpotCopyForm.html">ConfigureFindSpotCopyForm</a></li>
+				<li><a href="class-ConfigureHoardCopyForm.html">ConfigureHoardCopyForm</a></li>
+				<li><a href="class-ConfigureLoginRedirectForm.html">ConfigureLoginRedirectForm</a></li>
+				<li><a href="class-Conservation_AdviceController.html">Conservation_AdviceController</a></li>
+				<li><a href="class-Conservation_IndexController.html">Conservation_IndexController</a></li>
+				<li><a href="class-ContactForm.html">ContactForm</a></li>
+				<li><a href="class-Contacts.html">Contacts</a></li>
+				<li><a href="class-Contacts_AccreditedMuseumsController.html">Contacts_AccreditedMuseumsController</a></li>
+				<li><a href="class-Contacts_AjaxController.html">Contacts_AjaxController</a></li>
+				<li><a href="class-Contacts_CoronersController.html">Contacts_CoronersController</a></li>
+				<li><a href="class-Contacts_IndexController.html">Contacts_IndexController</a></li>
+				<li><a href="class-Contacts_StaffController.html">Contacts_StaffController</a></li>
+				<li><a href="class-ContactUsForm.html">ContactUsForm</a></li>
+				<li><a href="class-Content.html">Content</a></li>
+				<li><a href="class-ContentAudit.html">ContentAudit</a></li>
+				<li><a href="class-ContentForm.html">ContentForm</a></li>
+				<li><a href="class-ContentSearchForm.html">ContentSearchForm</a></li>
+				<li><a href="class-CopyCoin.html">CopyCoin</a></li>
+				<li><a href="class-CopyFind.html">CopyFind</a></li>
+				<li><a href="class-CopyFindSpot.html">CopyFindSpot</a></li>
+				<li><a href="class-CopyHoards.html">CopyHoards</a></li>
+				<li><a href="class-Copyrights.html">Copyrights</a></li>
+				<li><a href="class-CoronerForm.html">CoronerForm</a></li>
+				<li><a href="class-Coroners.html">Coroners</a></li>
+				<li><a href="class-Counties.html">Counties</a></li>
+				<li><a href="class-Countries.html">Countries</a></li>
+				<li><a href="class-CultureForm.html">CultureForm</a></li>
+				<li><a href="class-Cultures.html">Cultures</a></li>
+				<li><a href="class-Database_AjaxController.html">Database_AjaxController</a></li>
+				<li><a href="class-Database_ArchaeologyController.html">Database_ArchaeologyController</a></li>
+				<li><a href="class-Database_ArtefactsController.html">Database_ArtefactsController</a></li>
+				<li><a href="class-Database_CoinsController.html">Database_CoinsController</a></li>
+				<li><a href="class-Database_CommentsController.html">Database_CommentsController</a></li>
+				<li><a href="class-Database_DataController.html">Database_DataController</a></li>
+				<li><a href="class-Database_FindspotsController.html">Database_FindspotsController</a></li>
+				<li><a href="class-Database_HoardsController.html">Database_HoardsController</a></li>
+				<li><a href="class-Database_ImagesController.html">Database_ImagesController</a></li>
+				<li><a href="class-Database_IndexController.html">Database_IndexController</a></li>
+				<li><a href="class-Database_JettonsController.html">Database_JettonsController</a></li>
+				<li><a href="class-Database_LegacyController.html">Database_LegacyController</a></li>
+				<li><a href="class-Database_MyschemeController.html">Database_MyschemeController</a></li>
+				<li><a href="class-Database_OrganisationsController.html">Database_OrganisationsController</a></li>
+				<li><a href="class-Database_PeopleController.html">Database_PeopleController</a></li>
+				<li><a href="class-Database_PublicationsController.html">Database_PublicationsController</a></li>
+				<li><a href="class-Database_RalliesController.html">Database_RalliesController</a></li>
+				<li><a href="class-Database_ReferencesController.html">Database_ReferencesController</a></li>
+				<li><a href="class-Database_SearchController.html">Database_SearchController</a></li>
+				<li><a href="class-Database_SitemapController.html">Database_SitemapController</a></li>
+				<li><a href="class-Database_SketchfabController.html">Database_SketchfabController</a></li>
+				<li><a href="class-Database_StatisticsController.html">Database_StatisticsController</a></li>
+				<li><a href="class-Database_SummaryController.html">Database_SummaryController</a></li>
+				<li><a href="class-Database_TagsController.html">Database_TagsController</a></li>
+				<li><a href="class-Database_TreasureController.html">Database_TreasureController</a></li>
+				<li><a href="class-Datalabs_IndexController.html">Datalabs_IndexController</a></li>
+				<li><a href="class-Datalabs_OaiController.html">Datalabs_OaiController</a></li>
+				<li><a href="class-Datalabs_OsdataController.html">Datalabs_OsdataController</a></li>
+				<li><a href="class-Datalabs_RssController.html">Datalabs_RssController</a></li>
+				<li><a href="class-Datalabs_SmrController.html">Datalabs_SmrController</a></li>
+				<li><a href="class-Datalabs_TerminologyController.html">Datalabs_TerminologyController</a></li>
+				<li><a href="class-DataQuality.html">DataQuality</a></li>
+				<li><a href="class-DatePickerForm.html">DatePickerForm</a></li>
+				<li><a href="class-DateQualifiers.html">DateQualifiers</a></li>
+				<li><a href="class-DecMethods.html">DecMethods</a></li>
+				<li><a href="class-DecMethodsForm.html">DecMethodsForm</a></li>
+				<li><a href="class-DecStyles.html">DecStyles</a></li>
+				<li><a href="class-DecStylesForm.html">DecStylesForm</a></li>
+				<li><a href="class-DegreeOfWearForm.html">DegreeOfWearForm</a></li>
+				<li><a href="class-DenominationForm.html">DenominationForm</a></li>
+				<li><a href="class-Denominations.html">Denominations</a></li>
+				<li><a href="class-DenomRulers.html">DenomRulers</a></li>
+				<li><a href="class-DieAxes.html">DieAxes</a></li>
+				<li><a href="class-DieAxisForm.html">DieAxisForm</a></li>
+				<li><a href="class-DiscoMethods.html">DiscoMethods</a></li>
+				<li><a href="class-DiscoMethodsForm.html">DiscoMethodsForm</a></li>
+				<li><a href="class-Dynasties.html">Dynasties</a></li>
+				<li><a href="class-DynastyForm.html">DynastyForm</a></li>
+				<li><a href="class-EarlyMedievalCoinForm.html">EarlyMedievalCoinForm</a></li>
+				<li><a href="class-EarlyMedievalCoins_CategoriesController.html">EarlyMedievalCoins_CategoriesController</a></li>
+				<li><a href="class-EarlyMedievalCoins_DenominationsController.html">EarlyMedievalCoins_DenominationsController</a></li>
+				<li><a href="class-EarlyMedievalCoins_IndexController.html">EarlyMedievalCoins_IndexController</a></li>
+				<li><a href="class-EarlyMedievalCoins_MintsController.html">EarlyMedievalCoins_MintsController</a></li>
+				<li><a href="class-EarlyMedievalCoins_RulersController.html">EarlyMedievalCoins_RulersController</a></li>
+				<li><a href="class-Earlymedievalcoins_TypesController.html">Earlymedievalcoins_TypesController</a></li>
+				<li><a href="class-EarlyMedNumismaticSearchForm.html">EarlyMedNumismaticSearchForm</a></li>
+				<li><a href="class-EditAccountForm.html">EditAccountForm</a></li>
+				<li><a href="class-EmailSearchForm.html">EmailSearchForm</a></li>
+				<li><a href="class-EmperorForm.html">EmperorForm</a></li>
+				<li><a href="class-Emperors.html">Emperors</a></li>
+				<li><a href="class-ErrorController.html">ErrorController</a></li>
+				<li><a href="class-ErrorReports.html">ErrorReports</a></li>
+				<li><a href="class-EventForm.html">EventForm</a></li>
+				<li><a href="class-Events.html">Events</a></li>
+				<li><a href="class-EventTypes.html">EventTypes</a></li>
+				<li><a href="class-Faqs.html">Faqs</a></li>
+				<li><a href="class-FinalValuationForm.html">FinalValuationForm</a></li>
+				<li><a href="class-FindFilterForm.html">FindFilterForm</a></li>
+				<li><a href="class-FindForm.html">FindForm</a></li>
+				<li><a href="class-FindNoteReasonForm.html">FindNoteReasonForm</a></li>
+				<li><a href="class-Findofnotereasons.html">Findofnotereasons</a></li>
+				<li><a href="class-Finds.html">Finds</a></li>
+				<li><a href="class-FindsAudit.html">FindsAudit</a></li>
+				<li><a href="class-FindsImages.html">FindsImages</a></li>
+				<li><a href="class-FindSpotForm.html">FindSpotForm</a></li>
+				<li><a href="class-Findspots.html">Findspots</a></li>
+				<li><a href="class-FindSpotsAudit.html">FindSpotsAudit</a></li>
+				<li><a href="class-Findxfind.html">Findxfind</a></li>
+				<li><a href="class-Flickr_AjaxController.html">Flickr_AjaxController</a></li>
+				<li><a href="class-Flickr_ContactsController.html">Flickr_ContactsController</a></li>
+				<li><a href="class-Flickr_IndexController.html">Flickr_IndexController</a></li>
+				<li><a href="class-Flickr_MapController.html">Flickr_MapController</a></li>
+				<li><a href="class-Flickr_PhotosController.html">Flickr_PhotosController</a></li>
+				<li><a href="class-ForgotPasswordForm.html">ForgotPasswordForm</a></li>
+				<li><a href="class-ForgotUsernameForm.html">ForgotUsernameForm</a></li>
+				<li><a href="class-Geography.html">Geography</a></li>
+				<li><a href="class-GeoPlaces.html">GeoPlaces</a></li>
+				<li><a href="class-GetInvolved_FaqController.html">GetInvolved_FaqController</a></li>
+				<li><a href="class-Getinvolved_GuidesController.html">Getinvolved_GuidesController</a></li>
+				<li><a href="class-GetInvolved_IndexController.html">GetInvolved_IndexController</a></li>
+				<li><a href="class-Getinvolved_LinksController.html">Getinvolved_LinksController</a></li>
+				<li><a href="class-GetInvolved_VolunteeringController.html">GetInvolved_VolunteeringController</a></li>
+				<li><a href="class-GreekAndRomanCoinForm.html">GreekAndRomanCoinForm</a></li>
+				<li><a href="class-GreekRomanCoins_DenominationsController.html">GreekRomanCoins_DenominationsController</a></li>
+				<li><a href="class-GreekRomanCoins_IndexController.html">GreekRomanCoins_IndexController</a></li>
+				<li><a href="class-GreekRomanCoins_MintsController.html">GreekRomanCoins_MintsController</a></li>
+				<li><a href="class-GreekRomanCoins_RulersController.html">GreekRomanCoins_RulersController</a></li>
+				<li><a href="class-GreekRomanSearchForm.html">GreekRomanSearchForm</a></li>
+				<li><a href="class-Guides_IndexController.html">Guides_IndexController</a></li>
+				<li><a href="class-Help.html">Help</a></li>
+				<li><a href="class-Help_DatabaseController.html">Help_DatabaseController</a></li>
+				<li><a href="class-Help_IndexController.html">Help_IndexController</a></li>
+				<li><a href="class-Help_SiteController.html">Help_SiteController</a></li>
+				<li><a href="class-HelpForm.html">HelpForm</a></li>
+				<li><a href="class-HerForm.html">HerForm</a></li>
+				<li><a href="class-Hers.html">Hers</a></li>
+				<li><a href="class-HoardForm.html">HoardForm</a></li>
+				<li><a href="class-Hoards.html">Hoards</a></li>
+				<li><a href="class-HoardsAudit.html">HoardsAudit</a></li>
+				<li><a href="class-HoardsFinders.html">HoardsFinders</a></li>
+				<li><a href="class-ImageEditForm.html">ImageEditForm</a></li>
+				<li><a href="class-ImageForm.html">ImageForm</a></li>
+				<li><a href="class-ImageLinkForm.html">ImageLinkForm</a></li>
+				<li><a href="class-ImagesRulers.html">ImagesRulers</a></li>
+				<li><a href="class-IndexController.html">IndexController</a></li>
+				<li><a href="class-Info_AdviceController.html">Info_AdviceController</a></li>
+				<li><a href="class-Info_IndexController.html">Info_IndexController</a></li>
+				<li><a href="class-Info_SitemapController.html">Info_SitemapController</a></li>
+				<li><a href="class-InstitutionForm.html">InstitutionForm</a></li>
+				<li><a href="class-Institutions.html">Institutions</a></li>
+				<li><a href="class-InstLogos.html">InstLogos</a></li>
+				<li><a href="class-IronAgeCoinForm.html">IronAgeCoinForm</a></li>
+				<li><a href="class-IronAgeCoins_AllentypesController.html">IronAgeCoins_AllentypesController</a></li>
+				<li><a href="class-IronAgeCoins_DenominationsController.html">IronAgeCoins_DenominationsController</a></li>
+				<li><a href="class-IronAgeCoins_IndexController.html">IronAgeCoins_IndexController</a></li>
+				<li><a href="class-IronAgeCoins_MacktypesController.html">IronAgeCoins_MacktypesController</a></li>
+				<li><a href="class-IronAgeCoins_MintsController.html">IronAgeCoins_MintsController</a></li>
+				<li><a href="class-IronAgeCoins_RegionsController.html">IronAgeCoins_RegionsController</a></li>
+				<li><a href="class-IronAgeCoins_RulersController.html">IronAgeCoins_RulersController</a></li>
+				<li><a href="class-IronAgeCoins_TribesController.html">IronAgeCoins_TribesController</a></li>
+				<li><a href="class-IronAgeCoins_VanarsdelltypesController.html">IronAgeCoins_VanarsdelltypesController</a></li>
+				<li><a href="class-IronAgeNumismaticSearchForm.html">IronAgeNumismaticSearchForm</a></li>
+				<li><a href="class-IronAgeRegionForm.html">IronAgeRegionForm</a></li>
+				<li><a href="class-IronAgeTribeForm.html">IronAgeTribeForm</a></li>
+				<li><a href="class-JettonClasses.html">JettonClasses</a></li>
+				<li><a href="class-JettonGroups.html">JettonGroups</a></li>
+				<li><a href="class-JettonTypes.html">JettonTypes</a></li>
+				<li><a href="class-LanduseForm.html">LanduseForm</a></li>
+				<li><a href="class-Landuses.html">Landuses</a></li>
+				<li><a href="class-LicenseTypes.html">LicenseTypes</a></li>
+				<li><a href="class-LoginForm.html">LoginForm</a></li>
+				<li><a href="class-LoginRedirect.html">LoginRedirect</a></li>
+				<li><a href="class-Logins.html">Logins</a></li>
+				<li><a href="class-MackTypes.html">MackTypes</a></li>
+				<li><a href="class-Manufactures.html">Manufactures</a></li>
+				<li><a href="class-ManufacturesForm.html">ManufacturesForm</a></li>
+				<li><a href="class-MapOrigins.html">MapOrigins</a></li>
+				<li><a href="class-MaterialForm.html">MaterialForm</a></li>
+				<li><a href="class-Materials.html">Materials</a></li>
+				<li><a href="class-MedCategoryForm.html">MedCategoryForm</a></li>
+				<li><a href="class-MedievalCoinForm.html">MedievalCoinForm</a></li>
+				<li><a href="class-Medievalcoins_ArticlesController.html">Medievalcoins_ArticlesController</a></li>
+				<li><a href="class-MedievalCoins_CategoriesController.html">MedievalCoins_CategoriesController</a></li>
+				<li><a href="class-MedievalCoins_DenominationsController.html">MedievalCoins_DenominationsController</a></li>
+				<li><a href="class-MedievalCoins_IndexController.html">MedievalCoins_IndexController</a></li>
+				<li><a href="class-MedievalCoins_MintsController.html">MedievalCoins_MintsController</a></li>
+				<li><a href="class-MedievalCoins_RulersController.html">MedievalCoins_RulersController</a></li>
+				<li><a href="class-MedievalCoins_TypesController.html">MedievalCoins_TypesController</a></li>
+				<li><a href="class-MedievalTypes.html">MedievalTypes</a></li>
+				<li><a href="class-MedNumismaticSearchForm.html">MedNumismaticSearchForm</a></li>
+				<li><a href="class-MedTypeForm.html">MedTypeForm</a></li>
+				<li><a href="class-MessageReplyForm.html">MessageReplyForm</a></li>
+				<li><a href="class-Messages.html">Messages</a></li>
+				<li><a href="class-MetaDataForm.html">MetaDataForm</a></li>
+				<li><a href="class-MintForm.html">MintForm</a></li>
+				<li><a href="class-Mints.html">Mints</a></li>
+				<li><a href="class-MintsRulers.html">MintsRulers</a></li>
+				<li><a href="class-MonarchForm.html">MonarchForm</a></li>
+				<li><a href="class-Monarchs.html">Monarchs</a></li>
+				<li><a href="class-Moneyers.html">Moneyers</a></li>
+				<li><a href="class-News.html">News</a></li>
+				<li><a href="class-News_AjaxController.html">News_AjaxController</a></li>
+				<li><a href="class-News_EventsController.html">News_EventsController</a></li>
+				<li><a href="class-News_GuardianController.html">News_GuardianController</a></li>
+				<li><a href="class-News_IndexController.html">News_IndexController</a></li>
+				<li><a href="class-News_MapController.html">News_MapController</a></li>
+				<li><a href="class-News_StoryController.html">News_StoryController</a></li>
+				<li><a href="class-News_TheyworkforyouController.html">News_TheyworkforyouController</a></li>
+				<li><a href="class-NewsStoryForm.html">NewsStoryForm</a></li>
+				<li><a href="class-NotifyFloForm.html">NotifyFloForm</a></li>
+				<li><a href="class-OaiPmhRepositoryTokenTable.html">OaiPmhRepositoryTokenTable</a></li>
+				<li><a href="class-OauthTokens.html">OauthTokens</a></li>
+				<li><a href="class-OAuthUtil.html">OAuthUtil</a></li>
+				<li><a href="class-ObjectTerms.html">ObjectTerms</a></li>
+				<li><a href="class-OnlineAccounts.html">OnlineAccounts</a></li>
+				<li><a href="class-OrganisationFilterForm.html">OrganisationFilterForm</a></li>
+				<li><a href="class-OrganisationForm.html">OrganisationForm</a></li>
+				<li><a href="class-Organisations.html">Organisations</a></li>
+				<li><a href="class-OrganisationsAudit.html">OrganisationsAudit</a></li>
+				<li><a href="class-OriginForm.html">OriginForm</a></li>
+				<li><a href="class-OsCounties.html">OsCounties</a></li>
+				<li><a href="class-OsData.html">OsData</a></li>
+				<li><a href="class-OsDistricts.html">OsDistricts</a></li>
+				<li><a href="class-OsParishes.html">OsParishes</a></li>
+				<li><a href="class-OsRegions.html">OsRegions</a></li>
+				<li><a href="class-Pas_Acl.html">Pas_Acl</a></li>
+				<li><a href="class-Pas_Analytics_Dates.html">Pas_Analytics_Dates</a></li>
+				<li><a href="class-Pas_Analytics_Exception.html">Pas_Analytics_Exception</a></li>
+				<li><a href="class-Pas_Analytics_Gateway.html">Pas_Analytics_Gateway</a></li>
+				<li><a href="class-Pas_Analytics_Timespan.html">Pas_Analytics_Timespan</a></li>
+				<li><a href="class-Pas_ArrayFunctions.html">Pas_ArrayFunctions</a></li>
+				<li><a href="class-Pas_Calendar_Exception.html">Pas_Calendar_Exception</a></li>
+				<li><a href="class-Pas_Calendar_Mapper.html">Pas_Calendar_Mapper</a></li>
+				<li><a href="class-Pas_Controller_Action_Admin.html">Pas_Controller_Action_Admin</a></li>
+				<li><a href="class-Pas_Controller_Action_Ajax.html">Pas_Controller_Action_Ajax</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Acl.html">Pas_Controller_Action_Helper_Acl</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Akismet.html">Pas_Controller_Action_Helper_Akismet</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Announcements.html">Pas_Controller_Action_Helper_Announcements</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Audit.html">Pas_Controller_Action_Helper_Audit</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_AvailableOrNot.html">Pas_Controller_Action_Helper_AvailableOrNot</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_CoinFormLoader.html">Pas_Controller_Action_Helper_CoinFormLoader</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_CoinFormLoaderOptions.html">Pas_Controller_Action_Helper_CoinFormLoaderOptions</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_CoinSummaryFormLoaderOptions.html">Pas_Controller_Action_Helper_CoinSummaryFormLoaderOptions</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Config.html">Pas_Controller_Action_Helper_Config</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_FindspotFailedOptions.html">Pas_Controller_Action_Helper_FindspotFailedOptions</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_FindspotFormOptions.html">Pas_Controller_Action_Helper_FindspotFormOptions</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_GenerateSecuID.html">Pas_Controller_Action_Helper_GenerateSecuID</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_GeoCoder.html">Pas_Controller_Action_Helper_GeoCoder</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_GeoFormLoaderOptions.html">Pas_Controller_Action_Helper_GeoFormLoaderOptions</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Identity.html">Pas_Controller_Action_Helper_Identity</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_LoginRedirect.html">Pas_Controller_Action_Helper_LoginRedirect</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_Mailer.html">Pas_Controller_Action_Helper_Mailer</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_SendFile.html">Pas_Controller_Action_Helper_SendFile</a></li>
+				<li><a href="class-Pas_Controller_Action_Helper_SolrUpdater.html">Pas_Controller_Action_Helper_SolrUpdater</a></li>
+				<li><a href="class-Pas_Controller_Plugin_Acl.html">Pas_Controller_Plugin_Acl</a></li>
+				<li><a href="class-Pas_Controller_Plugin_BootstrapError.html">Pas_Controller_Plugin_BootstrapError</a></li>
+				<li><a href="class-Pas_Controller_Plugin_ModuleLayout.html">Pas_Controller_Plugin_ModuleLayout</a></li>
+				<li><a href="class-Pas_Controller_Plugin_Ssl.html">Pas_Controller_Plugin_Ssl</a></li>
+				<li><a href="class-Pas_Controller_Plugin_StyleAndAlternate.html">Pas_Controller_Plugin_StyleAndAlternate</a></li>
+				<li><a href="class-Pas_Curl.html">Pas_Curl</a></li>
+				<li><a href="class-Pas_Db_Table_Abstract.html">Pas_Db_Table_Abstract</a></li>
+				<li><a href="class-Pas_Db_Table_Caching.html">Pas_Db_Table_Caching</a></li>
+				<li><a href="class-Pas_Exif_Exception.html">Pas_Exif_Exception</a></li>
+				<li><a href="class-Pas_Exif_Reader.html">Pas_Exif_Reader</a></li>
+				<li><a href="class-Pas_Exif_Writer.html">Pas_Exif_Writer</a></li>
+				<li><a href="class-Pas_Exporter_ArrayToCsv.html">Pas_Exporter_ArrayToCsv</a></li>
+				<li><a href="class-Pas_Exporter_ArrayToCsvHoard.html">Pas_Exporter_ArrayToCsvHoard</a></li>
+				<li><a href="class-Pas_Exporter_ArrayToHero.html">Pas_Exporter_ArrayToHero</a></li>
+				<li><a href="class-Pas_Exporter_Csv.html">Pas_Exporter_Csv</a></li>
+				<li><a href="class-Pas_Exporter_Csvsummary.html">Pas_Exporter_Csvsummary</a></li>
+				<li><a href="class-Pas_Exporter_Exception.html">Pas_Exporter_Exception</a></li>
+				<li><a href="class-Pas_Exporter_Fetch.html">Pas_Exporter_Fetch</a></li>
+				<li><a href="class-Pas_Exporter_Generate.html">Pas_Exporter_Generate</a></li>
+				<li><a href="class-Pas_Exporter_Hero.html">Pas_Exporter_Hero</a></li>
+				<li><a href="class-Pas_Exporter_Kml.html">Pas_Exporter_Kml</a></li>
+				<li><a href="class-Pas_Exporter_Pdf.html">Pas_Exporter_Pdf</a></li>
+				<li><a href="class-Pas_Exporter_SummaryGenerate.html">Pas_Exporter_SummaryGenerate</a></li>
+				<li><a href="class-Pas_Filter_BasicHtml.html">Pas_Filter_BasicHtml</a></li>
+				<li><a href="class-Pas_Filter_EmailTextOnly.html">Pas_Filter_EmailTextOnly</a></li>
+				<li><a href="class-Pas_Filter_EmptyParagraph.html">Pas_Filter_EmptyParagraph</a></li>
+				<li><a href="class-Pas_Filter_HtmlBody.html">Pas_Filter_HtmlBody</a></li>
+				<li><a href="class-Pas_Filter_HtmlCleaned.html">Pas_Filter_HtmlCleaned</a></li>
+				<li><a href="class-Pas_Filter_HTMLPurifier.html">Pas_Filter_HTMLPurifier</a></li>
+				<li><a href="class-Pas_Filter_Purifier.html">Pas_Filter_Purifier</a></li>
+				<li><a href="class-Pas_Filter_StripSpaces.html">Pas_Filter_StripSpaces</a></li>
+				<li><a href="class-Pas_Filter_UrlSlug.html">Pas_Filter_UrlSlug</a></li>
+				<li><a href="class-Pas_Filter_WordChars.html">Pas_Filter_WordChars</a></li>
+				<li><a href="class-Pas_Form.html">Pas_Form</a></li>
+				<li><a href="class-Pas_Form_Element_CKEditor.html">Pas_Form_Element_CKEditor</a></li>
+				<li><a href="class-Pas_Form_Findspot.html">Pas_Form_Findspot</a></li>
+				<li><a href="class-Pas_FormLite.html">Pas_FormLite</a></li>
+				<li><a href="class-Pas_Generator_FindID.html">Pas_Generator_FindID</a></li>
+				<li><a href="class-Pas_Generator_SecuID.html">Pas_Generator_SecuID</a></li>
+				<li><a href="class-Pas_Geo_BoundBox.html">Pas_Geo_BoundBox</a></li>
+				<li><a href="class-Pas_Geo_Edina.html">Pas_Geo_Edina</a></li>
+				<li><a href="class-Pas_Geo_Edina_ClosestMatchSearch.html">Pas_Geo_Edina_ClosestMatchSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_Exception.html">Pas_Geo_Edina_Exception</a></li>
+				<li><a href="class-Pas_Geo_Edina_FeatureLookUp.html">Pas_Geo_Edina_FeatureLookUp</a></li>
+				<li><a href="class-Pas_Geo_Edina_FeatureTypes.html">Pas_Geo_Edina_FeatureTypes</a></li>
+				<li><a href="class-Pas_Geo_Edina_FootprintLookup.html">Pas_Geo_Edina_FootprintLookup</a></li>
+				<li><a href="class-Pas_Geo_Edina_NameAndFeatureSearch.html">Pas_Geo_Edina_NameAndFeatureSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_NameSearch.html">Pas_Geo_Edina_NameSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_PostCodeSearch.html">Pas_Geo_Edina_PostCodeSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_SpatialFeatureSearch.html">Pas_Geo_Edina_SpatialFeatureSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_SpatialNameSearch.html">Pas_Geo_Edina_SpatialNameSearch</a></li>
+				<li><a href="class-Pas_Geo_Edina_UniqueNameSearch.html">Pas_Geo_Edina_UniqueNameSearch</a></li>
+				<li><a href="class-Pas_Geo_Exception.html">Pas_Geo_Exception</a></li>
+				<li><a href="class-Pas_Geo_Gridcalc.html">Pas_Geo_Gridcalc</a></li>
+				<li><a href="class-Pas_Geo_Hash.html">Pas_Geo_Hash</a></li>
+				<li><a href="class-Pas_Geo_Mapit.html">Pas_Geo_Mapit</a></li>
+				<li><a href="class-Pas_Geo_Mapit_Area.html">Pas_Geo_Mapit_Area</a></li>
+				<li><a href="class-Pas_Geo_Mapit_Areas.html">Pas_Geo_Mapit_Areas</a></li>
+				<li><a href="class-Pas_Geo_Mapit_Exception.html">Pas_Geo_Mapit_Exception</a></li>
+				<li><a href="class-Pas_Geo_Mapit_Point.html">Pas_Geo_Mapit_Point</a></li>
+				<li><a href="class-Pas_Geo_Mapit_Postcode.html">Pas_Geo_Mapit_Postcode</a></li>
+				<li><a href="class-Pas_Image_Exception.html">Pas_Image_Exception</a></li>
+				<li><a href="class-Pas_Image_Magick.html">Pas_Image_Magick</a></li>
+				<li><a href="class-Pas_Image_MagickDust.html">Pas_Image_MagickDust</a></li>
+				<li><a href="class-Pas_Image_Rename.html">Pas_Image_Rename</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Inflector.html">Pas_OaiPmhRepository_Inflector</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_Abstract.html">Pas_OaiPmhRepository_Metadata_Abstract</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_CdwaLite.html">Pas_OaiPmhRepository_Metadata_CdwaLite</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_Europeana.html">Pas_OaiPmhRepository_Metadata_Europeana</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_Lido.html">Pas_OaiPmhRepository_Metadata_Lido</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_OaiDc.html">Pas_OaiPmhRepository_Metadata_OaiDc</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_Metadata_PndsDc.html">Pas_OaiPmhRepository_Metadata_PndsDc</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_OaiIdentifier.html">Pas_OaiPmhRepository_OaiIdentifier</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_OaiXmlGeneratorAbstract.html">Pas_OaiPmhRepository_OaiXmlGeneratorAbstract</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_ResponseGenerator.html">Pas_OaiPmhRepository_ResponseGenerator</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_ServerUrl.html">Pas_OaiPmhRepository_ServerUrl</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_SolrResponse.html">Pas_OaiPmhRepository_SolrResponse</a></li>
+				<li><a href="class-Pas_OaiPmhRepository_XmlGeneratorAbstract.html">Pas_OaiPmhRepository_XmlGeneratorAbstract</a></li>
+				<li><a href="class-Pas_Oauth_Flickr.html">Pas_Oauth_Flickr</a></li>
+				<li><a href="class-Pas_Oauth_Google.html">Pas_Oauth_Google</a></li>
+				<li><a href="class-Pas_RDF_Client.html">Pas_RDF_Client</a></li>
+				<li><a href="class-Pas_Service_Domesday_Exception.html">Pas_Service_Domesday_Exception</a></li>
+				<li><a href="class-Pas_Service_Domesday_Place.html">Pas_Service_Domesday_Place</a></li>
+				<li><a href="class-Pas_Service_Geo_Coder.html">Pas_Service_Geo_Coder</a></li>
+				<li><a href="class-Pas_Service_Geo_Elevation.html">Pas_Service_Geo_Elevation</a></li>
+				<li><a href="class-Pas_Service_Geo_GeoPlanet.html">Pas_Service_Geo_GeoPlanet</a></li>
+				<li><a href="class-Pas_Service_Geo_Parser.html">Pas_Service_Geo_Parser</a></li>
+				<li><a href="class-Pas_Service_Geo_PostCodeToGeo.html">Pas_Service_Geo_PostCodeToGeo</a></li>
+				<li><a href="class-Pas_Service_GoogleShortUrl.html">Pas_Service_GoogleShortUrl</a></li>
+				<li><a href="class-Pas_Service_OpenCalais_Exception.html">Pas_Service_OpenCalais_Exception</a></li>
+				<li><a href="class-Pas_Service_OpenCalais_Tagger.html">Pas_Service_OpenCalais_Tagger</a></li>
+				<li><a href="class-Pas_Service_OpenPlaques_Exception.html">Pas_Service_OpenPlaques_Exception</a></li>
+				<li><a href="class-Pas_Service_OpenPlaques_Search.html">Pas_Service_OpenPlaques_Search</a></li>
+				<li><a href="class-Pas_Service_SketchFabOembed.html">Pas_Service_SketchFabOembed</a></li>
+				<li><a href="class-Pas_Solr_BoundingBoxCheck.html">Pas_Solr_BoundingBoxCheck</a></li>
+				<li><a href="class-Pas_Solr_Exception.html">Pas_Solr_Exception</a></li>
+				<li><a href="class-Pas_Solr_FieldGeneratorFinds.html">Pas_Solr_FieldGeneratorFinds</a></li>
+				<li><a href="class-Pas_Solr_Handler.html">Pas_Solr_Handler</a></li>
+				<li><a href="class-Pas_Solr_MoreLikeThis.html">Pas_Solr_MoreLikeThis</a></li>
+				<li><a href="class-Pas_Solr_SensitiveFields.html">Pas_Solr_SensitiveFields</a></li>
+				<li><a href="class-Pas_Twfy.html">Pas_Twfy</a></li>
+				<li><a href="class-Pas_Twfy_Boundary.html">Pas_Twfy_Boundary</a></li>
+				<li><a href="class-Pas_Twfy_Constituencies.html">Pas_Twfy_Constituencies</a></li>
+				<li><a href="class-Pas_Twfy_Constituency.html">Pas_Twfy_Constituency</a></li>
+				<li><a href="class-Pas_Twfy_Exception.html">Pas_Twfy_Exception</a></li>
+				<li><a href="class-Pas_Twfy_FindConstituency.html">Pas_Twfy_FindConstituency</a></li>
+				<li><a href="class-Pas_Twfy_Geometry.html">Pas_Twfy_Geometry</a></li>
+				<li><a href="class-Pas_Twfy_Hansard.html">Pas_Twfy_Hansard</a></li>
+				<li><a href="class-Pas_Twfy_Lords.html">Pas_Twfy_Lords</a></li>
+				<li><a href="class-Pas_Twfy_MpInfo.html">Pas_Twfy_MpInfo</a></li>
+				<li><a href="class-Pas_Twfy_Mps.html">Pas_Twfy_Mps</a></li>
+				<li><a href="class-Pas_Twfy_Person.html">Pas_Twfy_Person</a></li>
+				<li><a href="class-Pas_User_Details.html">Pas_User_Details</a></li>
+				<li><a href="class-Pas_Validate_Authorise.html">Pas_Validate_Authorise</a></li>
+				<li><a href="class-Pas_Validate_District.html">Pas_Validate_District</a></li>
+				<li><a href="class-Pas_Validate_IdenticalField.html">Pas_Validate_IdenticalField</a></li>
+				<li><a href="class-Pas_Validate_Parish.html">Pas_Validate_Parish</a></li>
+				<li><a href="class-Pas_Validate_RightPassword.html">Pas_Validate_RightPassword</a></li>
+				<li><a href="class-Pas_Validate_Url.html">Pas_Validate_Url</a></li>
+				<li><a href="class-Pas_Validate_UsernameUnique.html">Pas_Validate_UsernameUnique</a></li>
+				<li><a href="class-Pas_Validate_ValidGridRef.html">Pas_Validate_ValidGridRef</a></li>
+				<li><a href="class-Pas_Validate_ValidObjectType.html">Pas_Validate_ValidObjectType</a></li>
+				<li><a href="class-Pas_Validate_ValidPostCode.html">Pas_Validate_ValidPostCode</a></li>
+				<li><a href="class-Pas_VCard.html">Pas_VCard</a></li>
+				<li><a href="class-Pas_View_Helper_Acronyms.html">Pas_View_Helper_Acronyms</a></li>
+				<li><a href="class-Pas_View_Helper_ActionErrors.html">Pas_View_Helper_ActionErrors</a></li>
+				<li><a href="class-Pas_View_Helper_ActivitySolrSearch.html">Pas_View_Helper_ActivitySolrSearch</a></li>
+				<li><a href="class-Pas_View_Helper_AdBc.html">Pas_View_Helper_AdBc</a></li>
+				<li><a href="class-Pas_View_Helper_AddArchaeology.html">Pas_View_Helper_AddArchaeology</a></li>
+				<li><a href="class-Pas_View_Helper_AddCheck.html">Pas_View_Helper_AddCheck</a></li>
+				<li><a href="class-Pas_View_Helper_AddCoinLink.html">Pas_View_Helper_AddCoinLink</a></li>
+				<li><a href="class-Pas_View_Helper_AddCoinSummary.html">Pas_View_Helper_AddCoinSummary</a></li>
+				<li><a href="class-Pas_View_Helper_AddJettonLink.html">Pas_View_Helper_AddJettonLink</a></li>
+				<li><a href="class-Pas_View_Helper_AddRefLink.html">Pas_View_Helper_AddRefLink</a></li>
+				<li><a href="class-Pas_View_Helper_AdminPeriod.html">Pas_View_Helper_AdminPeriod</a></li>
+				<li><a href="class-Pas_View_Helper_AllowedTest.html">Pas_View_Helper_AllowedTest</a></li>
+				<li><a href="class-Pas_View_Helper_AmazonDataDump.html">Pas_View_Helper_AmazonDataDump</a></li>
+				<li><a href="class-Pas_View_Helper_AmazonDataDumpPublic.html">Pas_View_Helper_AmazonDataDumpPublic</a></li>
+				<li><a href="class-Pas_View_Helper_AmazonDataDumpPublicGrids.html">Pas_View_Helper_AmazonDataDumpPublicGrids</a></li>
+				<li><a href="class-Pas_View_Helper_AmazonDataDumpResearch.html">Pas_View_Helper_AmazonDataDumpResearch</a></li>
+				<li><a href="class-Pas_View_Helper_AmazonDetails.html">Pas_View_Helper_AmazonDetails</a></li>
+				<li><a href="class-Pas_View_Helper_AmILoggedIn.html">Pas_View_Helper_AmILoggedIn</a></li>
+				<li><a href="class-Pas_View_Helper_AnalyticsLink.html">Pas_View_Helper_AnalyticsLink</a></li>
+				<li><a href="class-Pas_View_Helper_Applicants.html">Pas_View_Helper_Applicants</a></li>
+				<li><a href="class-Pas_View_Helper_AuditDisplay.html">Pas_View_Helper_AuditDisplay</a></li>
+				<li><a href="class-Pas_View_Helper_AuditLogs.html">Pas_View_Helper_AuditLogs</a></li>
+				<li><a href="class-Pas_View_Helper_AutoLink.html">Pas_View_Helper_AutoLink</a></li>
+				<li><a href="class-Pas_View_Helper_Breadcrumb.html">Pas_View_Helper_Breadcrumb</a></li>
+				<li><a href="class-Pas_View_Helper_Certainty.html">Pas_View_Helper_Certainty</a></li>
+				<li><a href="class-Pas_View_Helper_ChangesCoins.html">Pas_View_Helper_ChangesCoins</a></li>
+				<li><a href="class-Pas_View_Helper_ChangesFind.html">Pas_View_Helper_ChangesFind</a></li>
+				<li><a href="class-Pas_View_Helper_ChangesFindSpot.html">Pas_View_Helper_ChangesFindSpot</a></li>
+				<li><a href="class-Pas_View_Helper_CoinDataDisplay.html">Pas_View_Helper_CoinDataDisplay</a></li>
+				<li><a href="class-Pas_View_Helper_CoinEditDeleteLink.html">Pas_View_Helper_CoinEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_CoinRefAddLink.html">Pas_View_Helper_CoinRefAddLink</a></li>
+				<li><a href="class-Pas_View_Helper_CoinRefEditDeleteLink.html">Pas_View_Helper_CoinRefEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_Coins.html">Pas_View_Helper_Coins</a></li>
+				<li><a href="class-Pas_View_Helper_CoinStatsSolr.html">Pas_View_Helper_CoinStatsSolr</a></li>
+				<li><a href="class-Pas_View_Helper_CommentHeadTitle.html">Pas_View_Helper_CommentHeadTitle</a></li>
+				<li><a href="class-Pas_View_Helper_CommentsModerate.html">Pas_View_Helper_CommentsModerate</a></li>
+				<li><a href="class-Pas_View_Helper_CommentType.html">Pas_View_Helper_CommentType</a></li>
+				<li><a href="class-Pas_View_Helper_Completeness.html">Pas_View_Helper_Completeness</a></li>
+				<li><a href="class-Pas_View_Helper_ConservationMenu.html">Pas_View_Helper_ConservationMenu</a></li>
+				<li><a href="class-Pas_View_Helper_ContextsAvailable.html">Pas_View_Helper_ContextsAvailable</a></li>
+				<li><a href="class-Pas_View_Helper_CurrentPage.html">Pas_View_Helper_CurrentPage</a></li>
+				<li><a href="class-Pas_View_Helper_CurUrl.html">Pas_View_Helper_CurUrl</a></li>
+				<li><a href="class-Pas_View_Helper_DataEditDeleteCheck.html">Pas_View_Helper_DataEditDeleteCheck</a></li>
+				<li><a href="class-Pas_View_Helper_DataEditDeleteLinks.html">Pas_View_Helper_DataEditDeleteLinks</a></li>
+				<li><a href="class-Pas_View_Helper_DbPediaMintRdf.html">Pas_View_Helper_DbPediaMintRdf</a></li>
+				<li><a href="class-Pas_View_Helper_DbPediaRulerRdf.html">Pas_View_Helper_DbPediaRulerRdf</a></li>
+				<li><a href="class-Pas_View_Helper_DenomController.html">Pas_View_Helper_DenomController</a></li>
+				<li><a href="class-Pas_View_Helper_Diff.html">Pas_View_Helper_Diff</a></li>
+				<li><a href="class-Pas_View_Helper_DomesdayNear.html">Pas_View_Helper_DomesdayNear</a></li>
+				<li><a href="class-Pas_View_Helper_EarlyMiddleLate.html">Pas_View_Helper_EarlyMiddleLate</a></li>
+				<li><a href="class-Pas_View_Helper_EditCheck.html">Pas_View_Helper_EditCheck</a></li>
+				<li><a href="class-Pas_View_Helper_EditDeleteArchaeology.html">Pas_View_Helper_EditDeleteArchaeology</a></li>
+				<li><a href="class-Pas_View_Helper_EditDeleteImagesAll.html">Pas_View_Helper_EditDeleteImagesAll</a></li>
+				<li><a href="class-Pas_View_Helper_EditDeleteSummary.html">Pas_View_Helper_EditDeleteSummary</a></li>
+				<li><a href="class-Pas_View_Helper_EditReference.html">Pas_View_Helper_EditReference</a></li>
+				<li><a href="class-Pas_View_Helper_EllipsisString.html">Pas_View_Helper_EllipsisString</a></li>
+				<li><a href="class-Pas_View_Helper_EmailSaveSearch.html">Pas_View_Helper_EmailSaveSearch</a></li>
+				<li><a href="class-Pas_View_Helper_EmailSignature.html">Pas_View_Helper_EmailSignature</a></li>
+				<li><a href="class-Pas_View_Helper_ErrorCodeTitle.html">Pas_View_Helper_ErrorCodeTitle</a></li>
+				<li><a href="class-Pas_View_Helper_ExpiredJob.html">Pas_View_Helper_ExpiredJob</a></li>
+				<li><a href="class-Pas_View_Helper_Export.html">Pas_View_Helper_Export</a></li>
+				<li><a href="class-Pas_View_Helper_FacebookPage.html">Pas_View_Helper_FacebookPage</a></li>
+				<li><a href="class-Pas_View_Helper_FacetContentSection.html">Pas_View_Helper_FacetContentSection</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreator.html">Pas_View_Helper_FacetCreator</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorAjax.html">Pas_View_Helper_FacetCreatorAjax</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorAjaxImages.html">Pas_View_Helper_FacetCreatorAjaxImages</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorAjaxMyFinds.html">Pas_View_Helper_FacetCreatorAjaxMyFinds</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorAjaxMyImages.html">Pas_View_Helper_FacetCreatorAjaxMyImages</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorAjaxPeople.html">Pas_View_Helper_FacetCreatorAjaxPeople</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorContent.html">Pas_View_Helper_FacetCreatorContent</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorMyFinds.html">Pas_View_Helper_FacetCreatorMyFinds</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorMyImages.html">Pas_View_Helper_FacetCreatorMyImages</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorMyInstitution.html">Pas_View_Helper_FacetCreatorMyInstitution</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorPeople.html">Pas_View_Helper_FacetCreatorPeople</a></li>
+				<li><a href="class-Pas_View_Helper_FacetCreatorSmrs.html">Pas_View_Helper_FacetCreatorSmrs</a></li>
+				<li><a href="class-Pas_View_Helper_FieldNamesDb.html">Pas_View_Helper_FieldNamesDb</a></li>
+				<li><a href="class-Pas_View_Helper_FindNearSmr.html">Pas_View_Helper_FindNearSmr</a></li>
+				<li><a href="class-Pas_View_Helper_FindSmrs.html">Pas_View_Helper_FindSmrs</a></li>
+				<li><a href="class-Pas_View_Helper_FindsOfNoteConst.html">Pas_View_Helper_FindsOfNoteConst</a></li>
+				<li><a href="class-Pas_View_Helper_FindSpot.html">Pas_View_Helper_FindSpot</a></li>
+				<li><a href="class-Pas_View_Helper_FindSpotEditCheck.html">Pas_View_Helper_FindSpotEditCheck</a></li>
+				<li><a href="class-Pas_View_Helper_FindSpotEditDeleteLink.html">Pas_View_Helper_FindSpotEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_FindspotGeo.html">Pas_View_Helper_FindspotGeo</a></li>
+				<li><a href="class-Pas_View_Helper_FindspotGeoUnknown.html">Pas_View_Helper_FindspotGeoUnknown</a></li>
+				<li><a href="class-Pas_View_Helper_FindSpotLink.html">Pas_View_Helper_FindSpotLink</a></li>
+				<li><a href="class-Pas_View_Helper_FindsWithinConst.html">Pas_View_Helper_FindsWithinConst</a></li>
+				<li><a href="class-Pas_View_Helper_FindToImage.html">Pas_View_Helper_FindToImage</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrContactsList.html">Pas_View_Helper_FlickrContactsList</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrFront.html">Pas_View_Helper_FlickrFront</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrImage.html">Pas_View_Helper_FlickrImage</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrImageSearch.html">Pas_View_Helper_FlickrImageSearch</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrLicense.html">Pas_View_Helper_FlickrLicense</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrNsid.html">Pas_View_Helper_FlickrNsid</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrPerms.html">Pas_View_Helper_FlickrPerms</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrPhotoComments.html">Pas_View_Helper_FlickrPhotoComments</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrSetInfo.html">Pas_View_Helper_FlickrSetInfo</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrSetUrl.html">Pas_View_Helper_FlickrSetUrl</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrTagDetails.html">Pas_View_Helper_FlickrTagDetails</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrTagExif.html">Pas_View_Helper_FlickrTagExif</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrTags.html">Pas_View_Helper_FlickrTags</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrTotalViews.html">Pas_View_Helper_FlickrTotalViews</a></li>
+				<li><a href="class-Pas_View_Helper_FlickrVariantSizes.html">Pas_View_Helper_FlickrVariantSizes</a></li>
+				<li><a href="class-Pas_View_Helper_FormCKEditor.html">Pas_View_Helper_FormCKEditor</a></li>
+				<li><a href="class-Pas_View_Helper_FullName.html">Pas_View_Helper_FullName</a></li>
+				<li><a href="class-Pas_View_Helper_GaContentMetrics.html">Pas_View_Helper_GaContentMetrics</a></li>
+				<li><a href="class-Pas_View_Helper_GaContentNextPage.html">Pas_View_Helper_GaContentNextPage</a></li>
+				<li><a href="class-Pas_View_Helper_GaContentPreviousPage.html">Pas_View_Helper_GaContentPreviousPage</a></li>
+				<li><a href="class-Pas_View_Helper_GaContentSearch.html">Pas_View_Helper_GaContentSearch</a></li>
+				<li><a href="class-Pas_View_Helper_GaHeadlineStats.html">Pas_View_Helper_GaHeadlineStats</a></li>
+				<li><a href="class-Pas_View_Helper_Geshi.html">Pas_View_Helper_Geshi</a></li>
+				<li><a href="class-Pas_View_Helper_GetAccuracy.html">Pas_View_Helper_GetAccuracy</a></li>
+				<li><a href="class-Pas_View_Helper_GoogleAnalytics.html">Pas_View_Helper_GoogleAnalytics</a></li>
+				<li><a href="class-Pas_View_Helper_GoogleDynamicMap.html">Pas_View_Helper_GoogleDynamicMap</a></li>
+				<li><a href="class-Pas_View_Helper_GoogleStaticMap.html">Pas_View_Helper_GoogleStaticMap</a></li>
+				<li><a href="class-Pas_View_Helper_GravatarCustom.html">Pas_View_Helper_GravatarCustom</a></li>
+				<li><a href="class-Pas_View_Helper_GridRef.html">Pas_View_Helper_GridRef</a></li>
+				<li><a href="class-Pas_View_Helper_Harvard.html">Pas_View_Helper_Harvard</a></li>
+				<li><a href="class-Pas_View_Helper_HeadRdf.html">Pas_View_Helper_HeadRdf</a></li>
+				<li><a href="class-Pas_View_Helper_HoardMaterials.html">Pas_View_Helper_HoardMaterials</a></li>
+				<li><a href="class-Pas_View_Helper_Href.html">Pas_View_Helper_Href</a></li>
+				<li><a href="class-Pas_View_Helper_HumanDirectorySize.html">Pas_View_Helper_HumanDirectorySize</a></li>
+				<li><a href="class-Pas_View_Helper_HumanReadableFileSize.html">Pas_View_Helper_HumanReadableFileSize</a></li>
+				<li><a href="class-Pas_View_Helper_ImageEditDeleteLink.html">Pas_View_Helper_ImageEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_ImageLink.html">Pas_View_Helper_ImageLink</a></li>
+				<li><a href="class-Pas_View_Helper_ImagesFacetCreator.html">Pas_View_Helper_ImagesFacetCreator</a></li>
+				<li><a href="class-Pas_View_Helper_ImageToolBox.html">Pas_View_Helper_ImageToolBox</a></li>
+				<li><a href="class-Pas_View_Helper_Institution.html">Pas_View_Helper_Institution</a></li>
+				<li><a href="class-Pas_View_Helper_InstLogos.html">Pas_View_Helper_InstLogos</a></li>
+				<li><a href="class-Pas_View_Helper_IpAddress.html">Pas_View_Helper_IpAddress</a></li>
+				<li><a href="class-Pas_View_Helper_JettonEditDeleteLink.html">Pas_View_Helper_JettonEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_LatestRecords.html">Pas_View_Helper_LatestRecords</a></li>
+				<li><a href="class-Pas_View_Helper_LatestRecordsPublications.html">Pas_View_Helper_LatestRecordsPublications</a></li>
+				<li><a href="class-Pas_View_Helper_LatestTweets.html">Pas_View_Helper_LatestTweets</a></li>
+				<li><a href="class-Pas_View_Helper_LinkCoinArtefactContainer.html">Pas_View_Helper_LinkCoinArtefactContainer</a></li>
+				<li><a href="class-Pas_View_Helper_LoggedInlinks.html">Pas_View_Helper_LoggedInlinks</a></li>
+				<li><a href="class-Pas_View_Helper_MapFacetCreator.html">Pas_View_Helper_MapFacetCreator</a></li>
+				<li><a href="class-Pas_View_Helper_MapFacetCreatorMyFinds.html">Pas_View_Helper_MapFacetCreatorMyFinds</a></li>
+				<li><a href="class-Pas_View_Helper_MapFacetCreatorMyFindsByFlo.html">Pas_View_Helper_MapFacetCreatorMyFindsByFlo</a></li>
+				<li><a href="class-Pas_View_Helper_MapFacetCreatorMyInstitution.html">Pas_View_Helper_MapFacetCreatorMyInstitution</a></li>
+				<li><a href="class-Pas_View_Helper_Menu.html">Pas_View_Helper_Menu</a></li>
+				<li><a href="class-Pas_View_Helper_MetaBase.html">Pas_View_Helper_MetaBase</a></li>
+				<li><a href="class-Pas_View_Helper_ModulesGa.html">Pas_View_Helper_ModulesGa</a></li>
+				<li><a href="class-Pas_View_Helper_MoreLikeThis.html">Pas_View_Helper_MoreLikeThis</a></li>
+				<li><a href="class-Pas_View_Helper_MoreVisitsThanMe.html">Pas_View_Helper_MoreVisitsThanMe</a></li>
+				<li><a href="class-Pas_View_Helper_MpBio.html">Pas_View_Helper_MpBio</a></li>
+				<li><a href="class-Pas_View_Helper_NameThem.html">Pas_View_Helper_NameThem</a></li>
+				<li><a href="class-Pas_View_Helper_NewPeople.html">Pas_View_Helper_NewPeople</a></li>
+				<li><a href="class-Pas_View_Helper_NewsCommentCount.html">Pas_View_Helper_NewsCommentCount</a></li>
+				<li><a href="class-Pas_View_Helper_NextFind.html">Pas_View_Helper_NextFind</a></li>
+				<li><a href="class-Pas_View_Helper_NiceMonth.html">Pas_View_Helper_NiceMonth</a></li>
+				<li><a href="class-Pas_View_Helper_NiceShortDate.html">Pas_View_Helper_NiceShortDate</a></li>
+				<li><a href="class-Pas_View_Helper_NomismaRdf.html">Pas_View_Helper_NomismaRdf</a></li>
+				<li><a href="class-Pas_View_Helper_NotifyFloPublic.html">Pas_View_Helper_NotifyFloPublic</a></li>
+				<li><a href="class-Pas_View_Helper_OnlineAccount.html">Pas_View_Helper_OnlineAccount</a></li>
+				<li><a href="class-Pas_View_Helper_OnlineAccountHtml.html">Pas_View_Helper_OnlineAccountHtml</a></li>
+				<li><a href="class-Pas_View_Helper_OnlineAccountHtmlPublic.html">Pas_View_Helper_OnlineAccountHtmlPublic</a></li>
+				<li><a href="class-Pas_View_Helper_OsDataToConst.html">Pas_View_Helper_OsDataToConst</a></li>
+				<li><a href="class-Pas_View_Helper_ParagraphRemove.html">Pas_View_Helper_ParagraphRemove</a></li>
+				<li><a href="class-Pas_View_Helper_ParliamentCareer.html">Pas_View_Helper_ParliamentCareer</a></li>
+				<li><a href="class-Pas_View_Helper_PelagiosAnnotations.html">Pas_View_Helper_PelagiosAnnotations</a></li>
+				<li><a href="class-Pas_View_Helper_PeopleToolbox.html">Pas_View_Helper_PeopleToolbox</a></li>
+				<li><a href="class-Pas_View_Helper_PersonLookup.html">Pas_View_Helper_PersonLookup</a></li>
+				<li><a href="class-Pas_View_Helper_PleiadesFlickrImages.html">Pas_View_Helper_PleiadesFlickrImages</a></li>
+				<li><a href="class-Pas_View_Helper_PleiadesMintRdf.html">Pas_View_Helper_PleiadesMintRdf</a></li>
+				<li><a href="class-Pas_View_Helper_Pluralise.html">Pas_View_Helper_Pluralise</a></li>
+				<li><a href="class-Pas_View_Helper_PoliticalHouse.html">Pas_View_Helper_PoliticalHouse</a></li>
+				<li><a href="class-Pas_View_Helper_PoliticalParty.html">Pas_View_Helper_PoliticalParty</a></li>
+				<li><a href="class-Pas_View_Helper_PreferNarrow.html">Pas_View_Helper_PreferNarrow</a></li>
+				<li><a href="class-Pas_View_Helper_PreviousFind.html">Pas_View_Helper_PreviousFind</a></li>
+				<li><a href="class-Pas_View_Helper_Publish.html">Pas_View_Helper_Publish</a></li>
+				<li><a href="class-Pas_View_Helper_Purify.html">Pas_View_Helper_Purify</a></li>
+				<li><a href="class-Pas_View_Helper_QrCode.html">Pas_View_Helper_QrCode</a></li>
+				<li><a href="class-Pas_View_Helper_RecordEditDeleteLinks.html">Pas_View_Helper_RecordEditDeleteLinks</a></li>
+				<li><a href="class-Pas_View_Helper_ReferencesEditDeleteLink.html">Pas_View_Helper_ReferencesEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_RelevantAdviser.html">Pas_View_Helper_RelevantAdviser</a></li>
+				<li><a href="class-Pas_View_Helper_RelevantFlo.html">Pas_View_Helper_RelevantFlo</a></li>
+				<li><a href="class-Pas_View_Helper_ResultsQuantityChooser.html">Pas_View_Helper_ResultsQuantityChooser</a></li>
+				<li><a href="class-Pas_View_Helper_ResultsSorter.html">Pas_View_Helper_ResultsSorter</a></li>
+				<li><a href="class-Pas_View_Helper_RomanNumerals.html">Pas_View_Helper_RomanNumerals</a></li>
+				<li><a href="class-Pas_View_Helper_RTE.html">Pas_View_Helper_RTE</a></li>
+				<li><a href="class-Pas_View_Helper_SearchExportTools.html">Pas_View_Helper_SearchExportTools</a></li>
+				<li><a href="class-Pas_View_Helper_SearchLink.html">Pas_View_Helper_SearchLink</a></li>
+				<li><a href="class-Pas_View_Helper_SearchParams.html">Pas_View_Helper_SearchParams</a></li>
+				<li><a href="class-Pas_View_Helper_SearchUrl.html">Pas_View_Helper_SearchUrl</a></li>
+				<li><a href="class-Pas_View_Helper_SecondsToMinutes.html">Pas_View_Helper_SecondsToMinutes</a></li>
+				<li><a href="class-Pas_View_Helper_SectionTitle.html">Pas_View_Helper_SectionTitle</a></li>
+				<li><a href="class-Pas_View_Helper_SemanticTags.html">Pas_View_Helper_SemanticTags</a></li>
+				<li><a href="class-Pas_View_Helper_SketchFab.html">Pas_View_Helper_SketchFab</a></li>
+				<li><a href="class-Pas_View_Helper_SketchFabAddEditDeleteLink.html">Pas_View_Helper_SketchFabAddEditDeleteLink</a></li>
+				<li><a href="class-Pas_View_Helper_SketchFabAddLink.html">Pas_View_Helper_SketchFabAddLink</a></li>
+				<li><a href="class-Pas_View_Helper_SketchFabThumbnail.html">Pas_View_Helper_SketchFabThumbnail</a></li>
+				<li><a href="class-Pas_View_Helper_Slideshare.html">Pas_View_Helper_Slideshare</a></li>
+				<li><a href="class-Pas_View_Helper_SmrDataToConst.html">Pas_View_Helper_SmrDataToConst</a></li>
+				<li><a href="class-Pas_View_Helper_SparqlDbpedia.html">Pas_View_Helper_SparqlDbpedia</a></li>
+				<li><a href="class-Pas_View_Helper_SparqlEasy.html">Pas_View_Helper_SparqlEasy</a></li>
+				<li><a href="class-Pas_View_Helper_SparqlEasyEmperorBuilt.html">Pas_View_Helper_SparqlEasyEmperorBuilt</a></li>
+				<li><a href="class-Pas_View_Helper_SparqlEasyEmperorNotable.html">Pas_View_Helper_SparqlEasyEmperorNotable</a></li>
+				<li><a href="class-Pas_View_Helper_SplitName.html">Pas_View_Helper_SplitName</a></li>
+				<li><a href="class-Pas_View_Helper_StaffsMenu.html">Pas_View_Helper_StaffsMenu</a></li>
+				<li><a href="class-Pas_View_Helper_StatGenerator.html">Pas_View_Helper_StatGenerator</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsCounty.html">Pas_View_Helper_StatisticsCounty</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsCountyBroadPeriod.html">Pas_View_Helper_StatisticsCountyBroadPeriod</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsCountyPrecision.html">Pas_View_Helper_StatisticsCountyPrecision</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsCountyRecorders.html">Pas_View_Helper_StatisticsCountyRecorders</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsCountyYearDiscovery.html">Pas_View_Helper_StatisticsCountyYearDiscovery</a></li>
+				<li><a href="class-Pas_View_Helper_StatisticsDatabase.html">Pas_View_Helper_StatisticsDatabase</a></li>
+				<li><a href="class-Pas_View_Helper_StripGrid.html">Pas_View_Helper_StripGrid</a></li>
+				<li><a href="class-Pas_View_Helper_ThreeDToggler.html">Pas_View_Helper_ThreeDToggler</a></li>
+				<li><a href="class-Pas_View_Helper_ThumbnailToggler.html">Pas_View_Helper_ThumbnailToggler</a></li>
+				<li><a href="class-Pas_View_Helper_TimeAgoInWords.html">Pas_View_Helper_TimeAgoInWords</a></li>
+				<li><a href="class-Pas_View_Helper_TimeSpanParameter.html">Pas_View_Helper_TimeSpanParameter</a></li>
+				<li><a href="class-Pas_View_Helper_TimeSpansGa.html">Pas_View_Helper_TimeSpansGa</a></li>
+				<li><a href="class-Pas_View_Helper_Title.html">Pas_View_Helper_Title</a></li>
+				<li><a href="class-Pas_View_Helper_ToAtomDateStamp.html">Pas_View_Helper_ToAtomDateStamp</a></li>
+				<li><a href="class-Pas_View_Helper_ToDateStamp.html">Pas_View_Helper_ToDateStamp</a></li>
+				<li><a href="class-Pas_View_Helper_Toolbox.html">Pas_View_Helper_Toolbox</a></li>
+				<li><a href="class-Pas_View_Helper_Treasuremenu.html">Pas_View_Helper_Treasuremenu</a></li>
+				<li><a href="class-Pas_View_Helper_TreasureReportsMenu.html">Pas_View_Helper_TreasureReportsMenu</a></li>
+				<li><a href="class-Pas_View_Helper_Truncate.html">Pas_View_Helper_Truncate</a></li>
+				<li><a href="class-Pas_View_Helper_TwfyGeo.html">Pas_View_Helper_TwfyGeo</a></li>
+				<li><a href="class-Pas_View_Helper_TwfyImage.html">Pas_View_Helper_TwfyImage</a></li>
+				<li><a href="class-Pas_View_Helper_TwitterCard.html">Pas_View_Helper_TwitterCard</a></li>
+				<li><a href="class-Pas_View_Helper_UnlinkCoinArtefactContainer.html">Pas_View_Helper_UnlinkCoinArtefactContainer</a></li>
+				<li><a href="class-Pas_View_Helper_Urlslug.html">Pas_View_Helper_Urlslug</a></li>
+				<li><a href="class-Pas_View_Helper_UserAgent.html">Pas_View_Helper_UserAgent</a></li>
+				<li><a href="class-Pas_View_Helper_UserRecords.html">Pas_View_Helper_UserRecords</a></li>
+				<li><a href="class-Pas_View_Helper_Validity.html">Pas_View_Helper_Validity</a></li>
+				<li><a href="class-Pas_View_Helper_WhatYouWantToDo.html">Pas_View_Helper_WhatYouWantToDo</a></li>
+				<li><a href="class-Pas_View_Helper_WhatYouWantToDoAdmin.html">Pas_View_Helper_WhatYouWantToDoAdmin</a></li>
+				<li><a href="class-Pas_View_Helper_WordChars.html">Pas_View_Helper_WordChars</a></li>
+				<li><a href="class-Pas_View_Helper_Workflow.html">Pas_View_Helper_Workflow</a></li>
+				<li><a href="class-Pas_View_Helper_WorkflowStatus.html">Pas_View_Helper_WorkflowStatus</a></li>
+				<li><a href="class-Pas_View_Helper_Xmlconvert.html">Pas_View_Helper_Xmlconvert</a></li>
+				<li><a href="class-Pas_View_Helper_YahooGeoAdjacent.html">Pas_View_Helper_YahooGeoAdjacent</a></li>
+				<li><a href="class-Pas_View_Helper_YahooGeoAdjacentSmr.html">Pas_View_Helper_YahooGeoAdjacentSmr</a></li>
+				<li><a href="class-Pas_View_Helper_YearList.html">Pas_View_Helper_YearList</a></li>
+				<li><a href="class-Pas_View_Helper_Zoomify.html">Pas_View_Helper_Zoomify</a></li>
+				<li><a href="class-Pas_Yql_Exception.html">Pas_Yql_Exception</a></li>
+				<li><a href="class-Pas_Yql_Flickr.html">Pas_Yql_Flickr</a></li>
+				<li><a href="class-Pas_Yql_Oauth.html">Pas_Yql_Oauth</a></li>
+				<li><a href="class-Pas_Zoomify_FileProcessor.html">Pas_Zoomify_FileProcessor</a></li>
+				<li><a href="class-People.html">People</a></li>
+				<li><a href="class-PeopleAudit.html">PeopleAudit</a></li>
+				<li><a href="class-PeopleForm.html">PeopleForm</a></li>
+				<li><a href="class-PeriodForm.html">PeriodForm</a></li>
+				<li><a href="class-Periods.html">Periods</a></li>
+				<li><a href="class-PersonFilterForm.html">PersonFilterForm</a></li>
+				<li><a href="class-Places.html">Places</a></li>
+				<li><a href="class-PostcodeForm.html">PostcodeForm</a></li>
+				<li><a href="class-PostMedievalCoinForm.html">PostMedievalCoinForm</a></li>
+				<li><a href="class-Postmedievalcoins_ArticlesController.html">Postmedievalcoins_ArticlesController</a></li>
+				<li><a href="class-PostMedievalCoins_CategoriesController.html">PostMedievalCoins_CategoriesController</a></li>
+				<li><a href="class-PostMedievalCoins_DenominationsController.html">PostMedievalCoins_DenominationsController</a></li>
+				<li><a href="class-PostMedievalCoins_IndexController.html">PostMedievalCoins_IndexController</a></li>
+				<li><a href="class-PostMedievalCoins_MintsController.html">PostMedievalCoins_MintsController</a></li>
+				<li><a href="class-PostMedievalCoins_RulersController.html">PostMedievalCoins_RulersController</a></li>
+				<li><a href="class-PostMedievalCoins_TypesController.html">PostMedievalCoins_TypesController</a></li>
+				<li><a href="class-PostMedNumismaticSearchForm.html">PostMedNumismaticSearchForm</a></li>
+				<li><a href="class-Preservations.html">Preservations</a></li>
+				<li><a href="class-PreservationsForm.html">PreservationsForm</a></li>
+				<li><a href="class-PrimaryActivities.html">PrimaryActivities</a></li>
+				<li><a href="class-ProfileForm.html">ProfileForm</a></li>
+				<li><a href="class-ProjectTypes.html">ProjectTypes</a></li>
+				<li><a href="class-ProvisionalValuationForm.html">ProvisionalValuationForm</a></li>
+				<li><a href="class-PublicationForm.html">PublicationForm</a></li>
+				<li><a href="class-Publications.html">Publications</a></li>
+				<li><a href="class-Publications_IndexController.html">Publications_IndexController</a></li>
+				<li><a href="class-Publications_ReportsController.html">Publications_ReportsController</a></li>
+				<li><a href="class-Publications_ResearchController.html">Publications_ResearchController</a></li>
+				<li><a href="class-Publications_ReviewsController.html">Publications_ReviewsController</a></li>
+				<li><a href="class-PublicationTypes.html">PublicationTypes</a></li>
+				<li><a href="class-PublishCommentFindForm.html">PublishCommentFindForm</a></li>
+				<li><a href="class-QuoteForm.html">QuoteForm</a></li>
+				<li><a href="class-Quotes.html">Quotes</a></li>
+				<li><a href="class-Rallies.html">Rallies</a></li>
+				<li><a href="class-RallyForm.html">RallyForm</a></li>
+				<li><a href="class-RallyXFlo.html">RallyXFlo</a></li>
+				<li><a href="class-RecoveryMethods.html">RecoveryMethods</a></li>
+				<li><a href="class-ReeceEmperorForm.html">ReeceEmperorForm</a></li>
+				<li><a href="class-ReecePeriodEmperors.html">ReecePeriodEmperors</a></li>
+				<li><a href="class-ReecePeriodForm.html">ReecePeriodForm</a></li>
+				<li><a href="class-Reeces.html">Reeces</a></li>
+				<li><a href="class-RefEll.html">RefEll</a></li>
+				<li><a href="class-ReferenceCoinForm.html">ReferenceCoinForm</a></li>
+				<li><a href="class-ReferenceFindForm.html">ReferenceFindForm</a></li>
+				<li><a href="class-Regions.html">Regions</a></li>
+				<li><a href="class-RegisterForm.html">RegisterForm</a></li>
+				<li><a href="class-RejectUpgradeForm.html">RejectUpgradeForm</a></li>
+				<li><a href="class-Replies.html">Replies</a></li>
+				<li><a href="class-Research_AdviceController.html">Research_AdviceController</a></li>
+				<li><a href="class-Research_DatatransferController.html">Research_DatatransferController</a></li>
+				<li><a href="class-Research_IndexController.html">Research_IndexController</a></li>
+				<li><a href="class-Research_ProjectsController.html">Research_ProjectsController</a></li>
+				<li><a href="class-ResearchForm.html">ResearchForm</a></li>
+				<li><a href="class-ResearchProjects.html">ResearchProjects</a></li>
+				<li><a href="class-ResetPasswordKeyForm.html">ResetPasswordKeyForm</a></li>
+				<li><a href="class-Reverses.html">Reverses</a></li>
+				<li><a href="class-ReverseTypeForm.html">ReverseTypeForm</a></li>
+				<li><a href="class-RevTypes.html">RevTypes</a></li>
+				<li><a href="class-Roles.html">Roles</a></li>
+				<li><a href="class-RomanCoinForm.html">RomanCoinForm</a></li>
+				<li><a href="class-Romancoins_ArticlesController.html">Romancoins_ArticlesController</a></li>
+				<li><a href="class-RomanCoins_DenominationsController.html">RomanCoins_DenominationsController</a></li>
+				<li><a href="class-RomanCoins_DynastiesController.html">RomanCoins_DynastiesController</a></li>
+				<li><a href="class-RomanCoins_EmperorsController.html">RomanCoins_EmperorsController</a></li>
+				<li><a href="class-RomanCoins_IndexController.html">RomanCoins_IndexController</a></li>
+				<li><a href="class-RomanCoins_MintsController.html">RomanCoins_MintsController</a></li>
+				<li><a href="class-Romancoins_MoneyersController.html">Romancoins_MoneyersController</a></li>
+				<li><a href="class-RomanCoins_PersonificationsController.html">RomanCoins_PersonificationsController</a></li>
+				<li><a href="class-RomanCoins_ReeceperiodsController.html">RomanCoins_ReeceperiodsController</a></li>
+				<li><a href="class-RomanCoins_ReverseTypesController.html">RomanCoins_ReverseTypesController</a></li>
+				<li><a href="class-Romancoins_RicController.html">Romancoins_RicController</a></li>
+				<li><a href="class-RomanMints.html">RomanMints</a></li>
+				<li><a href="class-RomanNumismaticSearchForm.html">RomanNumismaticSearchForm</a></li>
+				<li><a href="class-RulerFilterForm.html">RulerFilterForm</a></li>
+				<li><a href="class-RulerForm.html">RulerForm</a></li>
+				<li><a href="class-RulerImages.html">RulerImages</a></li>
+				<li><a href="class-RulerRevType.html">RulerRevType</a></li>
+				<li><a href="class-Rulers.html">Rulers</a></li>
+				<li><a href="class-SavedSearches.html">SavedSearches</a></li>
+				<li><a href="class-SaveSearchForm.html">SaveSearchForm</a></li>
+				<li><a href="class-ScheduledMonuments.html">ScheduledMonuments</a></li>
+				<li><a href="class-Search_IndexController.html">Search_IndexController</a></li>
+				<li><a href="class-Search_ResultsController.html">Search_ResultsController</a></li>
+				<li><a href="class-Searches.html">Searches</a></li>
+				<li><a href="class-Secrettreasures_ContentController.html">Secrettreasures_ContentController</a></li>
+				<li><a href="class-Secrettreasures_IndexController.html">Secrettreasures_IndexController</a></li>
+				<li><a href="class-SemanticTags.html">SemanticTags</a></li>
+				<li><a href="class-SiteWideForm.html">SiteWideForm</a></li>
+				<li><a href="class-SketchFab.html">SketchFab</a></li>
+				<li><a href="class-SketchFabForm.html">SketchFabForm</a></li>
+				<li><a href="class-Slides.html">Slides</a></li>
+				<li><a href="class-SocialAccountsForm.html">SocialAccountsForm</a></li>
+				<li><a href="class-SolrForm.html">SolrForm</a></li>
+				<li><a href="class-StaffRegions.html">StaffRegions</a></li>
+				<li><a href="class-StaffRoleForm.html">StaffRoleForm</a></li>
+				<li><a href="class-StaffRoles.html">StaffRoles</a></li>
+				<li><a href="class-Staffshoardsymposium_IndexController.html">Staffshoardsymposium_IndexController</a></li>
+				<li><a href="class-Staffshoardsymposium_PapersController.html">Staffshoardsymposium_PapersController</a></li>
+				<li><a href="class-Statuses.html">Statuses</a></li>
+				<li><a href="class-SubPeriods.html">SubPeriods</a></li>
+				<li><a href="class-SubsequentActions.html">SubsequentActions</a></li>
+				<li><a href="class-SuggestedForm.html">SuggestedForm</a></li>
+				<li><a href="class-SuggestedResearch.html">SuggestedResearch</a></li>
+				<li><a href="class-SummaryAudit.html">SummaryAudit</a></li>
+				<li><a href="class-SurfaceTreatments.html">SurfaceTreatments</a></li>
+				<li><a href="class-SurfaceTreatmentsForm.html">SurfaceTreatmentsForm</a></li>
+				<li><a href="class-SystemRoleForm.html">SystemRoleForm</a></li>
+				<li><a href="class-Tech_IndexController.html">Tech_IndexController</a></li>
+				<li><a href="class-TerminalReasons.html">TerminalReasons</a></li>
+				<li><a href="class-TokenJettonForm.html">TokenJettonForm</a></li>
+				<li><a href="class-Treasure_AdviceController.html">Treasure_AdviceController</a></li>
+				<li><a href="class-Treasure_IndexController.html">Treasure_IndexController</a></li>
+				<li><a href="class-Treasure_MinutesController.html">Treasure_MinutesController</a></li>
+				<li><a href="class-TreasureActionForm.html">TreasureActionForm</a></li>
+				<li><a href="class-TreasureActions.html">TreasureActions</a></li>
+				<li><a href="class-TreasureActionTypes.html">TreasureActionTypes</a></li>
+				<li><a href="class-TreasureAssignations.html">TreasureAssignations</a></li>
+				<li><a href="class-TreasureAssignForm.html">TreasureAssignForm</a></li>
+				<li><a href="class-TreasureCases.html">TreasureCases</a></li>
+				<li><a href="class-TreasureStatusTypes.html">TreasureStatusTypes</a></li>
+				<li><a href="class-TreasureValuations.html">TreasureValuations</a></li>
+				<li><a href="class-Tribes.html">Tribes</a></li>
+				<li><a href="class-TVCDateForm.html">TVCDateForm</a></li>
+				<li><a href="class-TvcDates.html">TvcDates</a></li>
+				<li><a href="class-TvcDatesToCases.html">TvcDatesToCases</a></li>
+				<li><a href="class-TVCForm.html">TVCForm</a></li>
+				<li><a href="class-Twitter.html">Twitter</a></li>
+				<li><a href="class-UploadForm.html">UploadForm</a></li>
+				<li><a href="class-UserFilterForm.html">UserFilterForm</a></li>
+				<li><a href="class-Users.html">Users</a></li>
+				<li><a href="class-Users_AccountController.html">Users_AccountController</a></li>
+				<li><a href="class-Users_AuditController.html">Users_AuditController</a></li>
+				<li><a href="class-Users_BackupsController.html">Users_BackupsController</a></li>
+				<li><a href="class-Users_CalendarController.html">Users_CalendarController</a></li>
+				<li><a href="class-Users_CommentsController.html">Users_CommentsController</a></li>
+				<li><a href="class-Users_ConfigurationController.html">Users_ConfigurationController</a></li>
+				<li><a href="class-Users_EventsController.html">Users_EventsController</a></li>
+				<li><a href="class-Users_IndexController.html">Users_IndexController</a></li>
+				<li><a href="class-Users_NamedController.html">Users_NamedController</a></li>
+				<li><a href="class-Users_NewsController.html">Users_NewsController</a></li>
+				<li><a href="class-Users_ProfileController.html">Users_ProfileController</a></li>
+				<li><a href="class-Users_RecordsController.html">Users_RecordsController</a></li>
+				<li><a href="class-Users_SearchController.html">Users_SearchController</a></li>
+				<li><a href="class-Users_SocialController.html">Users_SocialController</a></li>
+				<li><a href="class-Users_VacanciesController.html">Users_VacanciesController</a></li>
+				<li><a href="class-UsersAudit.html">UsersAudit</a></li>
+				<li><a href="class-Vacancies.html">Vacancies</a></li>
+				<li><a href="class-VacancyForm.html">VacancyForm</a></li>
+				<li><a href="class-VanArsdellTypes.html">VanArsdellTypes</a></li>
+				<li><a href="class-VolunteerForm.html">VolunteerForm</a></li>
+				<li><a href="class-Volunteerrecording_GuideController.html">Volunteerrecording_GuideController</a></li>
+				<li><a href="class-Volunteerrecording_IndexController.html">Volunteerrecording_IndexController</a></li>
+				<li><a href="class-Volunteers.html">Volunteers</a></li>
+				<li><a href="class-WearTypes.html">WearTypes</a></li>
+				<li><a href="class-WebServices.html">WebServices</a></li>
+				<li><a href="class-WhatWhereWhenForm.html">WhatWhereWhenForm</a></li>
+				<li><a href="class-WorkflowForm.html">WorkflowForm</a></li>
+				<li><a href="class-Workflows.html">Workflows</a></li>
+				<li><a href="class-Yahoo.html">Yahoo</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-Pas_Exception.html">Pas_Exception</a></li>
+				<li><a href="class-Pas_Exception_AccountProblem.html">Pas_Exception_AccountProblem</a></li>
+				<li><a href="class-Pas_Exception_Group.html">Pas_Exception_Group</a></li>
+				<li><a href="class-Pas_Exception_NotAuthorised.html">Pas_Exception_NotAuthorised</a></li>
+				<li><a href="class-Pas_Exception_Param.html">Pas_Exception_Param</a></li>
+				<li><a href="class-Pas_Exception_Url.html">Pas_Exception_Url</a></li>
+			</ul>
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-cropTheImage.html">cropTheImage</a></li>
+				<li><a href="function-rm.html">rm</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a href="#1"> 1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a href="#2"> 2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a href="#3"> 3 </a><span class="php-comment"> * A model to update and manipulate the copy findspot table
+</span></span><span id="4" class="l"><a href="#4"> 4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a href="#5"> 5 </a><span class="php-comment"> * An example of use:
+</span></span><span id="6" class="l"><a href="#6"> 6 </a><span class="php-comment"> * &lt;code&gt;
+</span></span><span id="7" class="l"><a href="#7"> 7 </a><span class="php-comment"> * &lt;?php
+</span></span><span id="8" class="l"><a href="#8"> 8 </a><span class="php-comment"> * $model = new CopyFindSpot();
+</span></span><span id="9" class="l"><a href="#9"> 9 </a><span class="php-comment"> * $data = $model-&gt;getConfig();
+</span></span><span id="10" class="l"><a href="#10">10 </a><span class="php-comment"> * ?&gt;
+</span></span><span id="11" class="l"><a href="#11">11 </a><span class="php-comment"> * &lt;/code&gt;
+</span></span><span id="12" class="l"><a href="#12">12 </a><span class="php-comment"> * @author Daniel Pett &lt;dpett@britishmuseum.org&gt;
+</span></span><span id="13" class="l"><a href="#13">13 </a><span class="php-comment"> * @copyright (c) 2014 Daniel Pett
+</span></span><span id="14" class="l"><a href="#14">14 </a><span class="php-comment"> * @category Pas
+</span></span><span id="15" class="l"><a href="#15">15 </a><span class="php-comment"> * @package Db_Table
+</span></span><span id="16" class="l"><a href="#16">16 </a><span class="php-comment"> * @subpackage Abstract
+</span></span><span id="17" class="l"><a href="#17">17 </a><span class="php-comment"> @license http://www.gnu.org/licenses/agpl-3.0.txt GNU Affero GPL v3.0
+</span></span><span id="18" class="l"><a href="#18">18 </a><span class="php-comment"> * @version 1
+</span></span><span id="19" class="l"><a href="#19">19 </a><span class="php-comment"> * @since 22 September 2011
+</span></span><span id="20" class="l"><a href="#20">20 </a><span class="php-comment"> * @example /app/modules/users/controllers/ConfigurationController.php
+</span></span><span id="21" class="l"><a href="#21">21 </a><span class="php-comment"> */</span>
+</span><span id="22" class="l"><a href="#22">22 </a>
+</span><span id="23" class="l"><a href="#23">23 </a><span class="php-keyword1">class</span> CopyFindSpot <span class="php-keyword1">extends</span> Pas_Db_Table_Abstract {
+</span><span id="24" class="l"><a href="#24">24 </a>
+</span><span id="25" class="l"><a href="#25">25 </a>    <span class="php-comment">/** The table name
+</span></span><span id="26" class="l"><a href="#26">26 </a><span class="php-comment">     * @access protected
+</span></span><span id="27" class="l"><a href="#27">27 </a><span class="php-comment">     * @var type
+</span></span><span id="28" class="l"><a href="#28">28 </a><span class="php-comment">     */</span>
+</span><span id="29" class="l"><a href="#29">29 </a>    <span class="php-keyword1">protected</span> <span class="php-var">$_name</span> = <span class="php-quote">'copyFindSpot'</span>;
+</span><span id="30" class="l"><a href="#30">30 </a>
+</span><span id="31" class="l"><a href="#31">31 </a>    <span class="php-comment">/** The primary key
+</span></span><span id="32" class="l"><a href="#32">32 </a><span class="php-comment">     * @access protected
+</span></span><span id="33" class="l"><a href="#33">33 </a><span class="php-comment">     * @var type
+</span></span><span id="34" class="l"><a href="#34">34 </a><span class="php-comment">     */</span>
+</span><span id="35" class="l"><a href="#35">35 </a>    <span class="php-keyword1">protected</span> <span class="php-var">$_primary</span> = <span class="php-quote">'id'</span>;
+</span><span id="36" class="l"><a href="#36">36 </a>
+</span><span id="37" class="l"><a href="#37">37 </a>    <span class="php-comment">/** The default array
+</span></span><span id="38" class="l"><a href="#38">38 </a><span class="php-comment">     * @access protected
+</span></span><span id="39" class="l"><a href="#39">39 </a><span class="php-comment">     * @var type
+</span></span><span id="40" class="l"><a href="#40">40 </a><span class="php-comment">     */</span>
+</span><span id="41" class="l"><a href="#41">41 </a>    <span class="php-keyword1">protected</span> <span class="php-var">$_default</span> = <span class="php-keyword1">array</span>(
+</span><span id="42" class="l"><a href="#42">42 </a>        <span class="php-quote">'county'</span>, <span class="php-quote">'district'</span>, <span class="php-quote">'parish'</span>,
+</span><span id="43" class="l"><a href="#43">43 </a>        <span class="php-quote">'knownas'</span>, <span class="php-quote">'regionID'</span>, <span class="php-quote">'knownas'</span>,
+</span><span id="44" class="l"><a href="#44">44 </a>        <span class="php-quote">'gridref'</span>, <span class="php-quote">'gridrefsrc'</span>, <span class="php-quote">'gridrefcert'</span>,
+</span><span id="45" class="l"><a href="#45">45 </a>        <span class="php-quote">'description'</span>, <span class="php-quote">'comments'</span>, <span class="php-quote">'landusecode'</span>,
+</span><span id="46" class="l"><a href="#46">46 </a>        <span class="php-quote">'landusevalue'</span>, <span class="php-quote">'depthdiscovery'</span>, <span class="php-quote">'countyID'</span>,
+</span><span id="47" class="l"><a href="#47">47 </a>        <span class="php-quote">'parishID'</span>, <span class="php-quote">'districtID'</span>
+</span><span id="48" class="l"><a href="#48">48 </a>        );
+</span><span id="49" class="l"><a href="#49">49 </a>
+</span><span id="50" class="l"><a href="#50">50 </a>    <span class="php-comment">/** Get the configuration
+</span></span><span id="51" class="l"><a href="#51">51 </a><span class="php-comment">     * @access public
+</span></span><span id="52" class="l"><a href="#52">52 </a><span class="php-comment">     * @return array
+</span></span><span id="53" class="l"><a href="#53">53 </a><span class="php-comment">     */</span>
+</span><span id="54" class="l"><a href="#54">54 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> getConfig(){
+</span><span id="55" class="l"><a href="#55">55 </a>        <span class="php-var">$copy</span> = <span class="php-var">$this</span>-&gt;getAdapter();
+</span><span id="56" class="l"><a href="#56">56 </a>        <span class="php-var">$select</span> = <span class="php-var">$copy</span>-&gt;select()
+</span><span id="57" class="l"><a href="#57">57 </a>                -&gt;from(<span class="php-var">$this</span>-&gt;_name, <span class="php-keyword1">array</span>(<span class="php-quote">'fields'</span>))
+</span><span id="58" class="l"><a href="#58">58 </a>                -&gt;where(<span class="php-quote">'userID = ?'</span>, (int)<span class="php-var">$this</span>-&gt;getUserNumber());
+</span><span id="59" class="l"><a href="#59">59 </a>        <span class="php-var">$fields</span> = <span class="php-var">$copy</span>-&gt;fetchAll(<span class="php-var">$select</span>);
+</span><span id="60" class="l"><a href="#60">60 </a>        <span class="php-keyword1">if</span>(<span class="php-var">$fields</span>) {
+</span><span id="61" class="l"><a href="#61">61 </a>            <span class="php-var">$checked</span> = <span class="php-keyword2">unserialize</span>(<span class="php-var">$fields</span>[<span class="php-quote">'0'</span>][<span class="php-quote">'fields'</span>]);
+</span><span id="62" class="l"><a href="#62">62 </a>        } <span class="php-keyword1">else</span> {
+</span><span id="63" class="l"><a href="#63">63 </a>            <span class="php-var">$checked</span> =  <span class="php-var">$this</span>-&gt;_default;
+</span><span id="64" class="l"><a href="#64">64 </a>        }
+</span><span id="65" class="l"><a href="#65">65 </a>        <span class="php-keyword1">return</span> <span class="php-var">$checked</span>;
+</span><span id="66" class="l"><a href="#66">66 </a>    }
+</span><span id="67" class="l"><a href="#67">67 </a>
+</span><span id="68" class="l"><a href="#68">68 </a>    <span class="php-comment">/** update the base configuration
+</span></span><span id="69" class="l"><a href="#69">69 </a><span class="php-comment">     * @access public
+</span></span><span id="70" class="l"><a href="#70">70 </a><span class="php-comment">     * @param array $data
+</span></span><span id="71" class="l"><a href="#71">71 </a><span class="php-comment">     * @return int
+</span></span><span id="72" class="l"><a href="#72">72 </a><span class="php-comment">     */</span>
+</span><span id="73" class="l"><a href="#73">73 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> updateConfig( <span class="php-keyword1">array</span> <span class="php-var">$data</span> ){
+</span><span id="74" class="l"><a href="#74">74 </a>        <span class="php-keyword1">if</span>(<span class="php-keyword2">array_key_exists</span>(<span class="php-quote">'csrf'</span>, <span class="php-var">$data</span>)){
+</span><span id="75" class="l"><a href="#75">75 </a>            <span class="php-keyword1">unset</span>(<span class="php-var">$data</span>[<span class="php-quote">'csrf'</span>]);
+</span><span id="76" class="l"><a href="#76">76 </a>        }
+</span><span id="77" class="l"><a href="#77">77 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$data</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$value</span>){
+</span><span id="78" class="l"><a href="#78">78 </a>            <span class="php-keyword1">if</span>(<span class="php-keyword2">is_null</span>(<span class="php-var">$value</span>) || <span class="php-var">$value</span> === <span class="php-quote">''</span> || <span class="php-var">$value</span> === <span class="php-quote">'0'</span>){
+</span><span id="79" class="l"><a href="#79">79 </a>                <span class="php-keyword1">unset</span>(<span class="php-var">$data</span>[<span class="php-var">$key</span>]);
+</span><span id="80" class="l"><a href="#80">80 </a>            }
+</span><span id="81" class="l"><a href="#81">81 </a>        }
+</span><span id="82" class="l"><a href="#82">82 </a>        <span class="php-var">$newFields</span> = <span class="php-keyword2">array_keys</span>(<span class="php-var">$data</span>);
+</span><span id="83" class="l"><a href="#83">83 </a>        <span class="php-var">$updateData</span>[<span class="php-quote">'fields'</span>] = <span class="php-keyword2">serialize</span>(<span class="php-var">$newFields</span>);
+</span><span id="84" class="l"><a href="#84">84 </a>        <span class="php-var">$updateData</span>[<span class="php-quote">'created'</span>] = <span class="php-var">$this</span>-&gt;timeCreation();
+</span><span id="85" class="l"><a href="#85">85 </a>        <span class="php-var">$updateData</span>[<span class="php-quote">'createdBy'</span>] = <span class="php-var">$this</span>-&gt;getUserNumber();
+</span><span id="86" class="l"><a href="#86">86 </a>        <span class="php-var">$updateData</span>[<span class="php-quote">'userID'</span>] = <span class="php-var">$this</span>-&gt;getUserNumber();
+</span><span id="87" class="l"><a href="#87">87 </a>        parent::<span class="php-keyword2">delete</span>(<span class="php-quote">'userID ='</span> . <span class="php-var">$this</span>-&gt;getUserNumber());
+</span><span id="88" class="l"><a href="#88">88 </a>        <span class="php-keyword1">return</span> parent::insert(<span class="php-var">$updateData</span>);
+</span><span id="89" class="l"><a href="#89">89 </a>    }
+</span><span id="90" class="l"><a href="#90">90 </a>}
+</span><span id="91" class="l"><a href="#91">91 </a></span></code></pre>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js?533e23ef2f02bd4b20548834a028566b6eb403e0"></script>
+<script src="elementlist.js?ba0494b2017aa2b53b4d0f55822b903f98f3e79a"></script>
+</body>
+</html>
