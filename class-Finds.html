@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Finds</title>
+	<title>Class Finds | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -786,7 +772,7 @@ Zend_Db_Table_Abstract
 				<code><a href="class-News_AjaxController.html">News_AjaxController</a></code><br>
 				<b>Example:</b>
 				/app/modules/database/controllers/ArtefactsController.php<br>
-			<b>Located at</b> <a href="source-class-Finds.html#3-2253" title="Go to source code">app/models/Finds.php</a>
+			<b>Located at</b> <a href="source-class-Finds.html#3-2276" title="Go to source code">app/models/Finds.php</a>
 		<br>
 	</div>
 
@@ -795,43 +781,6 @@ Zend_Db_Table_Abstract
 		<div class="panel panel-default">
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
-		<tr data-order="generateFindId" id="_generateFindId">
-
-			<td class="attributes"><code>
-				 public 
-				string
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_generateFindId">#</a>
-			<code><a href="source-class-Finds.html#67-83" title="Go to source code">generateFindId</a>( )</code>
-
-			<div class="description short">
-				<p>Generates an old_findsID for new find records</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Generates an old_findsID for new find records</p>
-
-
-
-					<h4>Returns</h4>
-					<div class="list">
-						string<br>$findid The old_findsID
-					</div>
-
-					<h4>Throws</h4>
-					<div class="list">
-						<code><a href="class-Pas_Exception_NotAuthorised.html">Pas_Exception_NotAuthorised</a></code>
-					</div>
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="addFind" id="_addFind">
 
 			<td class="attributes"><code>
@@ -843,7 +792,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_addFind">#</a>
-			<code><a href="source-class-Finds.html#86-124" title="Go to source code">addFind</a>( <span>array <var>$insertData</var></span> )</code>
+			<code><a href="source-class-Finds.html#61-108" title="Go to source code">addFind</a>( <span>array <var>$insertData</var></span> )</code>
 
 			<div class="description short">
 				<p>Add a new find record</p>
@@ -870,6 +819,43 @@ Zend_Db_Table_Abstract
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="generateFindId" id="_generateFindId">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generateFindId">#</a>
+			<code><a href="source-class-Finds.html#110-126" title="Go to source code">generateFindId</a>( )</code>
+
+			<div class="description short">
+				<p>Generates an old_findsID for new find records</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Generates an old_findsID for new find records</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string<br>$findid The old_findsID
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Pas_Exception_NotAuthorised.html">Pas_Exception_NotAuthorised</a></code>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="editFind" id="_editFind">
 
 			<td class="attributes"><code>
@@ -881,7 +867,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_editFind">#</a>
-			<code><a href="source-class-Finds.html#126-147" title="Go to source code">editFind</a>( <span>array <var>$updateData</var></span>, <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Finds.html#128-149" title="Go to source code">editFind</a>( <span>array <var>$updateData</var></span>, <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Edit a find record</p>
@@ -921,7 +907,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getIdFromSecuid">#</a>
-			<code><a href="source-class-Finds.html#149-162" title="Go to source code">getIdFromSecuid</a>( <span>string <var>$secuid</var></span> )</code>
+			<code><a href="source-class-Finds.html#151-164" title="Go to source code">getIdFromSecuid</a>( <span>string <var>$secuid</var></span> )</code>
 
 			<div class="description short">
 				<p>Get id of find from secuid</p>
@@ -959,7 +945,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_linkFind">#</a>
-			<code><a href="source-class-Finds.html#164-174" title="Go to source code">linkFind</a>( <span>array <var>$updateData</var></span>, <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Finds.html#166-176" title="Go to source code">linkFind</a>( <span>array <var>$updateData</var></span>, <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Link a find record to a hoard record</p>
@@ -999,7 +985,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_unlinkFind">#</a>
-			<code><a href="source-class-Finds.html#176-186" title="Go to source code">unlinkFind</a>( <span>array <var>$id</var></span>, <span>integer <var>$id</var>,…</span> )</code>
+			<code><a href="source-class-Finds.html#178-188" title="Go to source code">unlinkFind</a>( <span>array <var>$id</var></span>, <span>integer <var>$id</var>,…</span> )</code>
 
 			<div class="description short">
 				<p>Unlink a find record to a hoard record</p>
@@ -1039,7 +1025,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindSecuid">#</a>
-			<code><a href="source-class-Finds.html#188-204" title="Go to source code">getFindSecuid</a>( <span>string <var>$q</var></span> )</code>
+			<code><a href="source-class-Finds.html#190-206" title="Go to source code">getFindSecuid</a>( <span>string <var>$q</var></span> )</code>
 
 			<div class="description short">
 				<p>Get a find's secure unique id for the jquery autocomplete</p>
@@ -1077,7 +1063,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getWorkflowstatus">#</a>
-			<code><a href="source-class-Finds.html#206-221" title="Go to source code">getWorkflowstatus</a>( <span>integer <var>$wfStageID</var></span> )</code>
+			<code><a href="source-class-Finds.html#208-223" title="Go to source code">getWorkflowstatus</a>( <span>integer <var>$wfStageID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get a count of all the finds by specific workflow stage</p>
@@ -1115,7 +1101,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAllData">#</a>
-			<code><a href="source-class-Finds.html#223-505" title="Go to source code">getAllData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#225-524" title="Go to source code">getAllData</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get massive data for a single record, loads of joins</p>
@@ -1153,7 +1139,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindData">#</a>
-			<code><a href="source-class-Finds.html#507-522" title="Go to source code">getFindData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#526-541" title="Go to source code">getFindData</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get dimensional data for a find</p>
@@ -1191,7 +1177,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindOtherRefs">#</a>
-			<code><a href="source-class-Finds.html#524-538" title="Go to source code">getFindOtherRefs</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#543-557" title="Go to source code">getFindOtherRefs</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get reference data for a find</p>
@@ -1229,7 +1215,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindMaterials">#</a>
-			<code><a href="source-class-Finds.html#540-574" title="Go to source code">getFindMaterials</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#559-593" title="Go to source code">getFindMaterials</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get materials and manufacturing data for a find</p>
@@ -1267,7 +1253,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindTemporalData">#</a>
-			<code><a href="source-class-Finds.html#576-611" title="Go to source code">getFindTemporalData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#595-630" title="Go to source code">getFindTemporalData</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get temporal data for a find</p>
@@ -1305,7 +1291,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPersonalData">#</a>
-			<code><a href="source-class-Finds.html#613-653" title="Go to source code">getPersonalData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#632-672" title="Go to source code">getPersonalData</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get personal data for a find</p>
@@ -1343,7 +1329,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindsFloQuarter">#</a>
-			<code><a href="source-class-Finds.html#656-677" title="Go to source code">getFindsFloQuarter</a>( <span>integer <var>$staffID</var></span> )</code>
+			<code><a href="source-class-Finds.html#675-696" title="Go to source code">getFindsFloQuarter</a>( <span>integer <var>$staffID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finds entered by user per quarter as a count and sum</p>
@@ -1381,7 +1367,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindsFloPeriod">#</a>
-			<code><a href="source-class-Finds.html#679-698" title="Go to source code">getFindsFloPeriod</a>( <span>integer <var>$staffID</var></span> )</code>
+			<code><a href="source-class-Finds.html#698-717" title="Go to source code">getFindsFloPeriod</a>( <span>integer <var>$staffID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finds entered by user per broadperiod as a count and sum</p>
@@ -1419,7 +1405,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindsByDay">#</a>
-			<code><a href="source-class-Finds.html#701-714" title="Go to source code">getFindsByDay</a>( )</code>
+			<code><a href="source-class-Finds.html#720-733" title="Go to source code">getFindsByDay</a>( )</code>
 
 			<div class="description short">
 				<p>Get all finds by a day</p>
@@ -1452,7 +1438,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getReportTotals">#</a>
-			<code><a href="source-class-Finds.html#716-733" title="Go to source code">getReportTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#735-752" title="Go to source code">getReportTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get total for reports by date</p>
@@ -1492,7 +1478,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getOfficerTotals">#</a>
-			<code><a href="source-class-Finds.html#735-756" title="Go to source code">getOfficerTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#754-775" title="Go to source code">getOfficerTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finds officer totals by fullname for reports by date</p>
@@ -1532,7 +1518,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getInstitutionTotals">#</a>
-			<code><a href="source-class-Finds.html#758-779" title="Go to source code">getInstitutionTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#777-798" title="Go to source code">getInstitutionTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institutional totals for reports by date</p>
@@ -1572,7 +1558,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPeriodTotals">#</a>
-			<code><a href="source-class-Finds.html#781-800" title="Go to source code">getPeriodTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#800-819" title="Go to source code">getPeriodTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get broadperiod totals for reports by date</p>
@@ -1612,7 +1598,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindersTotals">#</a>
-			<code><a href="source-class-Finds.html#802-823" title="Go to source code">getFindersTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#821-842" title="Go to source code">getFindersTotals</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get distinct finder totals for reports by date</p>
@@ -1652,7 +1638,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAverageMonth">#</a>
-			<code><a href="source-class-Finds.html#825-842" title="Go to source code">getAverageMonth</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#844-861" title="Go to source code">getAverageMonth</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get monthly count of finds found</p>
@@ -1692,7 +1678,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getYearFound">#</a>
-			<code><a href="source-class-Finds.html#844-865" title="Go to source code">getYearFound</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#863-884" title="Go to source code">getYearFound</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get discovery year for finds found between certain dates</p>
@@ -1732,7 +1718,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getDiscoveryMethod">#</a>
-			<code><a href="source-class-Finds.html#867-888" title="Go to source code">getDiscoveryMethod</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#886-907" title="Go to source code">getDiscoveryMethod</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get discovery method counts for finds found between certain dates</p>
@@ -1772,7 +1758,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLandUse">#</a>
-			<code><a href="source-class-Finds.html#890-913" title="Go to source code">getLandUse</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#909-932" title="Go to source code">getLandUse</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get landuse counts for finds found between certain dates</p>
@@ -1812,7 +1798,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPrecision">#</a>
-			<code><a href="source-class-Finds.html#915-937" title="Go to source code">getPrecision</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#934-956" title="Go to source code">getPrecision</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get landuse counts for finds found between certain dates</p>
@@ -1852,7 +1838,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCounties">#</a>
-			<code><a href="source-class-Finds.html#939-960" title="Go to source code">getCounties</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#958-979" title="Go to source code">getCounties</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get landuse counts for finds found between certain dates</p>
@@ -1892,7 +1878,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCountyStat">#</a>
-			<code><a href="source-class-Finds.html#962-985" title="Go to source code">getCountyStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#981-1004" title="Go to source code">getCountyStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get counts for finds found between certain dates for counties</p>
@@ -1934,7 +1920,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getUsersStat">#</a>
-			<code><a href="source-class-Finds.html#987-1015" title="Go to source code">getUsersStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1006-1034" title="Go to source code">getUsersStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get counts for finds found between certain dates for counties by
@@ -1978,7 +1964,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPeriodTotalsCounty">#</a>
-			<code><a href="source-class-Finds.html#1017-1040" title="Go to source code">getPeriodTotalsCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1036-1059" title="Go to source code">getPeriodTotalsCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get counts for finds found between certain dates for periods and county</p>
@@ -2020,7 +2006,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFinderTotalsCounty">#</a>
-			<code><a href="source-class-Finds.html#1042-1068" title="Go to source code">getFinderTotalsCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1061-1087" title="Go to source code">getFinderTotalsCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get counts for finders by county</p>
@@ -2062,7 +2048,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAverageMonthCounty">#</a>
-			<code><a href="source-class-Finds.html#1070-1096" title="Go to source code">getAverageMonthCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1089-1115" title="Go to source code">getAverageMonthCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finds per month by county</p>
@@ -2104,7 +2090,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getYearFoundCounty">#</a>
-			<code><a href="source-class-Finds.html#1098-1123" title="Go to source code">getYearFoundCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>strig <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1117-1142" title="Go to source code">getYearFoundCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>strig <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finds per year by county</p>
@@ -2146,7 +2132,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getDiscoveryMethodCounty">#</a>
-			<code><a href="source-class-Finds.html#1125-1150" title="Go to source code">getDiscoveryMethodCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1144-1169" title="Go to source code">getDiscoveryMethodCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get discovery method totals by county</p>
@@ -2188,7 +2174,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLandUseCounty">#</a>
-			<code><a href="source-class-Finds.html#1152-1177" title="Go to source code">getLandUseCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1171-1196" title="Go to source code">getLandUseCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get landuse totals by county</p>
@@ -2230,7 +2216,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPrecisionCounty">#</a>
-			<code><a href="source-class-Finds.html#1179-1203" title="Go to source code">getPrecisionCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
+			<code><a href="source-class-Finds.html#1198-1222" title="Go to source code">getPrecisionCounty</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$county</var></span> )</code>
 
 			<div class="description short">
 				<p>Get precision of findspot by county</p>
@@ -2272,7 +2258,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getInstitutions">#</a>
-			<code><a href="source-class-Finds.html#1205-1228" title="Go to source code">getInstitutions</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#1224-1247" title="Go to source code">getInstitutions</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get recording institutions between dates</p>
@@ -2312,7 +2298,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getInstStat">#</a>
-			<code><a href="source-class-Finds.html#1230-1254" title="Go to source code">getInstStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1249-1273" title="Go to source code">getInstStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get  institution's recording stats between dates</p>
@@ -2354,7 +2340,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getUsersInstStat">#</a>
-			<code><a href="source-class-Finds.html#1257-1281" title="Go to source code">getUsersInstStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1276-1300" title="Go to source code">getUsersInstStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's recording user stats between dates</p>
@@ -2396,7 +2382,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPeriodTotalsInst">#</a>
-			<code><a href="source-class-Finds.html#1283-1307" title="Go to source code">getPeriodTotalsInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1302-1326" title="Go to source code">getPeriodTotalsInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's recording period totals between dates</p>
@@ -2438,7 +2424,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFinderTotalsInst">#</a>
-			<code><a href="source-class-Finds.html#1309-1330" title="Go to source code">getFinderTotalsInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1328-1349" title="Go to source code">getFinderTotalsInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's number of finders between dates</p>
@@ -2480,7 +2466,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getYearFoundInst">#</a>
-			<code><a href="source-class-Finds.html#1332-1357" title="Go to source code">getYearFoundInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1351-1376" title="Go to source code">getYearFoundInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's year of discovery range between dates</p>
@@ -2522,7 +2508,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getDiscoveryMethodInst">#</a>
-			<code><a href="source-class-Finds.html#1359-1384" title="Go to source code">getDiscoveryMethodInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1378-1403" title="Go to source code">getDiscoveryMethodInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's method of discovery range between dates</p>
@@ -2564,7 +2550,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLandUseInst">#</a>
-			<code><a href="source-class-Finds.html#1386-1414" title="Go to source code">getLandUseInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1405-1433" title="Go to source code">getLandUseInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's land uses range between dates</p>
@@ -2606,7 +2592,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPrecisionInst">#</a>
-			<code><a href="source-class-Finds.html#1416-1442" title="Go to source code">getPrecisionInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1435-1461" title="Go to source code">getPrecisionInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's land uses range between dates</p>
@@ -2648,7 +2634,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAverageMonthInst">#</a>
-			<code><a href="source-class-Finds.html#1444-1469" title="Go to source code">getAverageMonthInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
+			<code><a href="source-class-Finds.html#1463-1488" title="Go to source code">getAverageMonthInst</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>string <var>$institution</var></span> )</code>
 
 			<div class="description short">
 				<p>Get institution's monthly records and sum recorded between dates</p>
@@ -2690,7 +2676,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getRegions">#</a>
-			<code><a href="source-class-Finds.html#1471-1495" title="Go to source code">getRegions</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
+			<code><a href="source-class-Finds.html#1490-1514" title="Go to source code">getRegions</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span> )</code>
 
 			<div class="description short">
 				<p>Get recording regions between dates</p>
@@ -2730,7 +2716,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getRegionStat">#</a>
-			<code><a href="source-class-Finds.html#1497-1523" title="Go to source code">getRegionStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1516-1542" title="Go to source code">getRegionStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get regions' figures between dates</p>
@@ -2772,7 +2758,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getUsersRegionStat">#</a>
-			<code><a href="source-class-Finds.html#1525-1552" title="Go to source code">getUsersRegionStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1544-1571" title="Go to source code">getUsersRegionStat</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get users recording by a region between dates</p>
@@ -2814,7 +2800,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPeriodTotalsRegion">#</a>
-			<code><a href="source-class-Finds.html#1554-1579" title="Go to source code">getPeriodTotalsRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1573-1598" title="Go to source code">getPeriodTotalsRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get broadperiods by a region between dates</p>
@@ -2856,7 +2842,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFinderTotalsRegion">#</a>
-			<code><a href="source-class-Finds.html#1581-1608" title="Go to source code">getFinderTotalsRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1600-1627" title="Go to source code">getFinderTotalsRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finder totals by a region between dates</p>
@@ -2898,7 +2884,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getYearFoundRegion">#</a>
-			<code><a href="source-class-Finds.html#1610-1630" title="Go to source code">getYearFoundRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1629-1649" title="Go to source code">getYearFoundRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get year of discovery by a region between dates</p>
@@ -2940,7 +2926,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getDiscoveryMethodRegion">#</a>
-			<code><a href="source-class-Finds.html#1632-1652" title="Go to source code">getDiscoveryMethodRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1651-1671" title="Go to source code">getDiscoveryMethodRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get finder totals by a region between dates</p>
@@ -2982,7 +2968,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLandUseRegion">#</a>
-			<code><a href="source-class-Finds.html#1654-1680" title="Go to source code">getLandUseRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1673-1699" title="Go to source code">getLandUseRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get landuse totals by a region between dates</p>
@@ -3024,7 +3010,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getPrecisionRegion">#</a>
-			<code><a href="source-class-Finds.html#1682-1707" title="Go to source code">getPrecisionRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1701-1726" title="Go to source code">getPrecisionRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get findspot precision by a region between dates</p>
@@ -3066,7 +3052,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAverageMonthRegion">#</a>
-			<code><a href="source-class-Finds.html#1709-1736" title="Go to source code">getAverageMonthRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1728-1755" title="Go to source code">getAverageMonthRegion</a>( <span>string <var>$datefrom</var></span>, <span>string <var>$dateto</var></span>, <span>integer <var>$regionID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get monthly totals by region between dates</p>
@@ -3108,7 +3094,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindtoFindspots">#</a>
-			<code><a href="source-class-Finds.html#1738-1752" title="Go to source code">getFindtoFindspots</a>( <span>integer <var>$findspotID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1757-1771" title="Go to source code">getFindtoFindspots</a>( <span>integer <var>$findspotID</var></span> )</code>
 
 			<div class="description short">
 				<p>Check if a findspot exists</p>
@@ -3146,7 +3132,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getEmbedFind">#</a>
-			<code><a href="source-class-Finds.html#1754-1779" title="Go to source code">getEmbedFind</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1773-1798" title="Go to source code">getEmbedFind</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>get data for embedding a find</p>
@@ -3184,7 +3170,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getWebCiteFind">#</a>
-			<code><a href="source-class-Finds.html#1781-1805" title="Go to source code">getWebCiteFind</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1800-1824" title="Go to source code">getWebCiteFind</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>gGt data for citation of a find</p>
@@ -3222,7 +3208,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getEditData">#</a>
-			<code><a href="source-class-Finds.html#1807-1835" title="Go to source code">getEditData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1826-1854" title="Go to source code">getEditData</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve edit data for a find</p>
@@ -3260,7 +3246,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFindNumbersEtc">#</a>
-			<code><a href="source-class-Finds.html#1837-1852" title="Go to source code">getFindNumbersEtc</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1856-1871" title="Go to source code">getFindNumbersEtc</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve find's numbers and broadperiod</p>
@@ -3298,7 +3284,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getRelevantAdviserFind">#</a>
-			<code><a href="source-class-Finds.html#1854-1873" title="Go to source code">getRelevantAdviserFind</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#1873-1892" title="Go to source code">getRelevantAdviserFind</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve finds adviser responsible</p>
@@ -3336,7 +3322,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getIndividualFind">#</a>
-			<code><a href="source-class-Finds.html#1875-1925" title="Go to source code">getIndividualFind</a>( <span>integer <var>$findID</var></span>, <span>string <var>$role</var></span> )</code>
+			<code><a href="source-class-Finds.html#1894-1944" title="Go to source code">getIndividualFind</a>( <span>integer <var>$findID</var></span>, <span>string <var>$role</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve find data if allowed access</p>
@@ -3376,7 +3362,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getImageToFind">#</a>
-			<code><a href="source-class-Finds.html#1927-1957" title="Go to source code">getImageToFind</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Finds.html#1946-1976" title="Go to source code">getImageToFind</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Get attached images</p>
@@ -3414,7 +3400,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLastRecord">#</a>
-			<code><a href="source-class-Finds.html#1959-1990" title="Go to source code">getLastRecord</a>( <span>integer <var>$userid</var></span> )</code>
+			<code><a href="source-class-Finds.html#1978-2009" title="Go to source code">getLastRecord</a>( <span>integer <var>$userid</var></span> )</code>
 
 			<div class="description short">
 				<p>Get the last record created by a specific user</p>
@@ -3452,7 +3438,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getImageLinkData">#</a>
-			<code><a href="source-class-Finds.html#1992-2004" title="Go to source code">getImageLinkData</a>( <span>string <var>$q</var></span> )</code>
+			<code><a href="source-class-Finds.html#2011-2023" title="Go to source code">getImageLinkData</a>( <span>string <var>$q</var></span> )</code>
 
 			<div class="description short">
 				<p>Get findID and secuid for linking images</p>
@@ -3490,7 +3476,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCreator">#</a>
-			<code><a href="source-class-Finds.html#2006-2020" title="Go to source code">getCreator</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#2026-2040" title="Go to source code">getCreator</a>( <span>integer <var>$findID</var></span> )</code>
 
 			<div class="description short">
 				<p>Get creator of a record by ID number</p>
@@ -3528,7 +3514,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getSolrData">#</a>
-			<code><a href="source-class-Finds.html#2022-2237" title="Go to source code">getSolrData</a>( <span>integer <var>$findID</var></span> )</code>
+			<code><a href="source-class-Finds.html#2042-2260" title="Go to source code">getSolrData</a>( <span>integer <var>$findID</var></span>, <span> <var>$type</var> = <span class="php-keyword1">NULL</span></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve record data in format for solr schema</p>
@@ -3541,6 +3527,8 @@ specific user</p>
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$findID</var></dt>
+						<dd></dd>
+						<dt><var>$type</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -3566,7 +3554,7 @@ specific user</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCountFinds">#</a>
-			<code><a href="source-class-Finds.html#2239-2252" title="Go to source code">getCountFinds</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Finds.html#2262-2275" title="Go to source code">getCountFinds</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve a user's count and quantity of finds recorded</p>
@@ -3628,7 +3616,7 @@ specific user</p>
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Finds.html#61-64" title="Go to source code"><b>DUPLICATE_UNIQUE_VALUE_ERROR_CODE</b></a>
+						<a href="source-class-Finds.html#31-34" title="Go to source code"><b>DUPLICATE_UNIQUE_VALUE_ERROR_CODE</b></a>
 					</code>
 
 					<div class="description short">
@@ -3670,7 +3658,7 @@ specific user</p>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Finds.html#31-35" title="Go to source code"><var>$_name</var></a>
+					<a href="source-class-Finds.html#35-39" title="Go to source code"><var>$_name</var></a>
 
 				<div class="description short">
 					<p>The table name</p>
@@ -3695,7 +3683,7 @@ specific user</p>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Finds.html#37-41" title="Go to source code"><var>$_primary</var></a>
+					<a href="source-class-Finds.html#40-44" title="Go to source code"><var>$_primary</var></a>
 
 				<div class="description short">
 					<p>The primary key</p>
@@ -3720,7 +3708,7 @@ specific user</p>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Finds.html#43-47" title="Go to source code"><var>$_higherlevel</var></a>
+					<a href="source-class-Finds.html#45-49" title="Go to source code"><var>$_higherlevel</var></a>
 
 				<div class="description short">
 					<p>The higher level array</p>
@@ -3745,7 +3733,7 @@ specific user</p>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Finds.html#49-53" title="Go to source code"><var>$_parishStop</var></a>
+					<a href="source-class-Finds.html#50-54" title="Go to source code"><var>$_parishStop</var></a>
 
 				<div class="description short">
 					<p>The parish stop access</p>
@@ -3810,7 +3798,7 @@ specific user</p>
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

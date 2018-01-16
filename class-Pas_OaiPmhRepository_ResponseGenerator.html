@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Pas_OaiPmhRepository_ResponseGenerator</title>
+	<title>Class Pas_OaiPmhRepository_ResponseGenerator | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -609,7 +595,7 @@ all the XML output on-the-fly.</p>
 				John Flatness, Yu-Hsun Lin &amp; Daniel Pett<br>
 				<b>Used by:</b>
 				<code><a href="class-Datalabs_OaiController.html">Datalabs_OaiController</a></code><br>
-			<b>Located at</b> <a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#3-532" title="Go to source code">library/Pas/OaiPmhRepository/ResponseGenerator.php</a>
+			<b>Located at</b> <a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#3-531" title="Go to source code">library/Pas/OaiPmhRepository/ResponseGenerator.php</a>
 		<br>
 	</div>
 
@@ -629,7 +615,7 @@ all the XML output on-the-fly.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#40-77" title="Go to source code">__construct</a>( <span>array <var>$query</var></span> )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#39-76" title="Go to source code">__construct</a>( <span>array <var>$query</var></span> )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -670,7 +656,7 @@ OAI-PMH responses.  Dispatches control to appropriate verb, if any.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_dispatchRequest">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#79-150" title="Go to source code">dispatchRequest</a>( )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#78-149" title="Go to source code">dispatchRequest</a>( )</code>
 
 			<div class="description short">
 				<p>Parses the HTTP query and dispatches to the correct verb handler.
@@ -709,7 +695,7 @@ Checks arguments for each verb type, and sets XML request tag.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_checkArguments">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#153-207" title="Go to source code">checkArguments</a>( <span>array <var>$requiredArgs</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$optionalArgs</var> = <span class="php-keyword1">array</span>()</span> )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#152-206" title="Go to source code">checkArguments</a>( <span>array <var>$requiredArgs</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$optionalArgs</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 			<div class="description short">
 				<p>Checks the argument list from the POST/GET query.</p>
@@ -753,7 +739,7 @@ required or optional array.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_identify">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#209-239" title="Go to source code">identify</a>( )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#208-238" title="Go to source code">identify</a>( )</code>
 
 			<div class="description short">
 				<p>Responds to the Identify verb.</p>
@@ -784,7 +770,7 @@ required or optional array.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_listSets">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#309-333" title="Go to source code">listSets</a>( )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#308-332" title="Go to source code">listSets</a>( )</code>
 
 			<div class="description short">
 				<p>Responds to the ListSets verb.
@@ -815,7 +801,7 @@ Outputs setSpec and setName for all OAI-PMH sets (Omeka collections).</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_resumeListResponse">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#370-399" title="Go to source code">resumeListResponse</a>( <span>string <var>$token</var></span> )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#369-398" title="Go to source code">resumeListResponse</a>( <span>string <var>$token</var></span> )</code>
 
 			<div class="description short">
 				<p>Returns the next incomplete list response based on the given resumption
@@ -855,7 +841,7 @@ token.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_listResponse">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#401-452" title="Go to source code">listResponse</a>( <span>string <var>$verb</var></span>, <span>string <var>$metadataPrefix</var></span>, <span>integer <var>$cursor</var></span>, <span>mixed <var>$set</var></span>, <span>string <var>$from</var></span>, <span>string <var>$until</var></span> )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#400-451" title="Go to source code">listResponse</a>( <span>string <var>$verb</var></span>, <span>string <var>$metadataPrefix</var></span>, <span>integer <var>$cursor</var></span>, <span>mixed <var>$set</var></span>, <span>string <var>$from</var></span>, <span>string <var>$until</var></span> )</code>
 
 			<div class="description short">
 				<p>Responds to the two main List verbs, includes resumption and limiting.</p>
@@ -907,7 +893,7 @@ token.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_createResumptionToken">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#455-495" title="Go to source code">createResumptionToken</a>( <span>string <var>$verb</var></span>, <span>string <var>$metadataPrefix</var></span>, <span>integer <var>$cursor</var></span>, <span>mixed <var>$set</var></span>, <span>string <var>$from</var></span>, <span>string <var>$until</var></span> )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#454-494" title="Go to source code">createResumptionToken</a>( <span>string <var>$verb</var></span>, <span>string <var>$metadataPrefix</var></span>, <span>integer <var>$cursor</var></span>, <span>mixed <var>$set</var></span>, <span>string <var>$from</var></span>, <span>string <var>$until</var></span> )</code>
 
 			<div class="description short">
 				<p>Stores a new resumption token record in the database</p>
@@ -959,7 +945,7 @@ token.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFormats">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#498-521" title="Go to source code">getFormats</a>( )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#497-520" title="Go to source code">getFormats</a>( )</code>
 
 			<div class="description short">
 				<p>Builds an array of entries for all included metadata mapping classes.
@@ -996,7 +982,7 @@ Modified the method for directory iteration via dirname(<strong>FILE</strong>)</
 
 			<td class="name"><div>
 			<a class="anchor" href="#___toString">#</a>
-			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#523-531" title="Go to source code">__toString</a>( )</code>
+			<code><a href="source-class-Pas_OaiPmhRepository_ResponseGenerator.html#522-530" title="Go to source code">__toString</a>( )</code>
 
 			<div class="description short">
 				<p>Outputs the XML response as a string
@@ -1139,7 +1125,7 @@ Called once processing is complete to return the XML to the client.</p>
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

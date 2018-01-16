@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Package PAS</title>
+	<title>Package Pas | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li class="active">
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -532,14 +518,6 @@
 
 
 		<div id="elements">
-			<h3>Classes</h3>
-			<ul>
-				<li><a href="class-Pas_View_Helper_AnalyticsLink.html">Pas_View_Helper_AnalyticsLink</a></li>
-				<li><a href="class-Pas_View_Helper_FullName.html">Pas_View_Helper_FullName</a></li>
-				<li><a href="class-Pas_View_Helper_ParliamentCareer.html">Pas_View_Helper_ParliamentCareer</a></li>
-				<li><a href="class-Pas_View_Helper_PreferNarrow.html">Pas_View_Helper_PreferNarrow</a></li>
-				<li><a href="class-Pas_View_Helper_ResultsSorter.html">Pas_View_Helper_ResultsSorter</a></li>
-			</ul>
 
 
 
@@ -554,35 +532,66 @@
 <div id="right">
 	<div id="rightInner">
 <div id="content" class="package">
-	<h1>Package PAS</h1>
+	<h1>Package Pas</h1>
+
+	<div class="panel panel-default">
+        <div class="panel-heading"><h2>Packages summary</h2></div>
+		<table class="summary table table-bordered table-striped" id="packages">
+		<tr>
+			<td class="name"><a href="package-Pas.Acl.html">Pas\Acl</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Controller.html">Pas\Controller</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Db.html">Pas\Db</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Exif.html">Pas\Exif</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Filter.html">Pas\Filter</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Form.html">Pas\Form</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Generator.html">Pas\Generator</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Geo.html">Pas\Geo</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.OaiPmhRepository.html">Pas\OaiPmhRepository</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Oauth.html">Pas\Oauth</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Service.html">Pas\Service</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Solr.html">Pas\Solr</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.twfy.html">Pas\twfy</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Validate.html">Pas\Validate</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.View.html">Pas\View</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Yql.html">Pas\Yql</a></td>
+		</tr>
+		<tr>
+			<td class="name"><a href="package-Pas.Zoomify.html">Pas\Zoomify</a></td>
+		</tr>
+		</table>
+	</div>
 
 
-
-<div class="panel panel-default">
-    <div class="panel-heading"><h2>Classes summary</h2></div>
-	<table class="summary table table-bordered table-striped" id="classes">
-<tr>
-	<td class="name"><a href="class-Pas_View_Helper_AnalyticsLink.html">Pas_View_Helper_AnalyticsLink</a></td>
-	<td>A view helper to provide a link url for the analytics page.</td>
-</tr>
-<tr>
-	<td class="name"><a href="class-Pas_View_Helper_FullName.html">Pas_View_Helper_FullName</a></td>
-	<td>A view helper for getting fullname of user</td>
-</tr>
-<tr>
-	<td class="name"><a href="class-Pas_View_Helper_ParliamentCareer.html">Pas_View_Helper_ParliamentCareer</a></td>
-	<td>View helper to render an MP's parliamentary career</td>
-</tr>
-<tr>
-	<td class="name"><a href="class-Pas_View_Helper_PreferNarrow.html">Pas_View_Helper_PreferNarrow</a></td>
-	<td>A view helper to render thesauri term's scope.</td>
-</tr>
-<tr>
-	<td class="name"><a href="class-Pas_View_Helper_ResultsSorter.html">Pas_View_Helper_ResultsSorter</a></td>
-	<td>A view helper for setting up a results sorter</td>
-</tr>
-	</table>
-</div>
 
 
 
@@ -592,10 +601,10 @@
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js?533e23ef2f02bd4b20548834a028566b6eb403e0"></script>
-<script src="elementlist.js?ba0494b2017aa2b53b4d0f55822b903f98f3e79a"></script>
+<script src="elementlist.js?5f733cc3847c0bd083f1f11a8450b3b2d812c9e9"></script>
 </body>
 </html>

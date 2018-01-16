@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Admin_ContactsController</title>
+	<title>Class Admin_ContactsController | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -543,6 +529,7 @@
 				<li><a href="class-Admin_CommentsController.html">Admin_CommentsController</a></li>
 				<li class="active"><a href="class-Admin_ContactsController.html">Admin_ContactsController</a></li>
 				<li><a href="class-Admin_ContentController.html">Admin_ContentController</a></li>
+				<li><a href="class-Admin_CopyrightsController.html">Admin_CopyrightsController</a></li>
 				<li><a href="class-Admin_CoronersController.html">Admin_CoronersController</a></li>
 				<li><a href="class-Admin_ErrorsController.html">Admin_ErrorsController</a></li>
 				<li><a href="class-Admin_EventsController.html">Admin_EventsController</a></li>
@@ -775,8 +762,6 @@ Zend_Controller_Action
 				<b>Version:</b>
 				1<br>
 				<b>Uses:</b>
-				Pas_Service_Geo_Geoplanet<br>
-				<b>Uses:</b>
 				<code><a href="class-Pas_Service_Geo_Coder.html">Pas_Service_Geo_Coder</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-Contacts.html">Contacts</a></code><br>
@@ -792,7 +777,7 @@ Zend_Controller_Action
 				<code><a href="class-StaffRegions.html">StaffRegions</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-AddStaffLogoForm.html">AddStaffLogoForm</a></code><br>
-			<b>Located at</b> <a href="source-class-Admin_ContactsController.html#3-327" title="Go to source code">app/modules/admin/controllers/ContactsController.php</a>
+			<b>Located at</b> <a href="source-class-Admin_ContactsController.html#3-311" title="Go to source code">app/modules/admin/controllers/ContactsController.php</a>
 		<br>
 	</div>
 
@@ -801,39 +786,6 @@ Zend_Controller_Action
 		<div class="panel panel-default">
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
-		<tr data-order="getGeoPlanet" id="_getGeoPlanet">
-
-			<td class="attributes"><code>
-				 public 
-				Pas_Service_Geo_Geoplanet
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_getGeoPlanet">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#46-54" title="Go to source code">getGeoPlanet</a>( )</code>
-
-			<div class="description short">
-				<p>Get the geo planet class</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Get the geo planet class</p>
-
-
-
-					<h4>Returns</h4>
-					<div class="list">
-						Pas_Service_Geo_Geoplanet
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="getGeocoder" id="_getGeocoder">
 
 			<td class="attributes"><code>
@@ -845,7 +797,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getGeocoder">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#56-64" title="Go to source code">getGeocoder</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#39-47" title="Go to source code">getGeocoder</a>( )</code>
 
 			<div class="description short">
 				<p>Get the geocoder function</p>
@@ -878,7 +830,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getContacts">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#66-74" title="Go to source code">getContacts</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#49-57" title="Go to source code">getContacts</a>( )</code>
 
 			<div class="description short">
 				<p>The contacts model returned for use</p>
@@ -911,7 +863,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#94-105" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#77-87" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Set up the ACL and contexts</p>
@@ -940,7 +892,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_indexAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#107-114" title="Go to source code">indexAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#89-96" title="Go to source code">indexAction</a>( )</code>
 
 			<div class="description short">
 				<p>Display the index page for contacts</p>
@@ -969,7 +921,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_alumniAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#116-123" title="Go to source code">alumniAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#98-105" title="Go to source code">alumniAction</a>( )</code>
 
 			<div class="description short">
 				<p>View index page for alumni</p>
@@ -998,7 +950,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_contactAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#125-137" title="Go to source code">contactAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#107-119" title="Go to source code">contactAction</a>( )</code>
 
 			<div class="description short">
 				<p>View a contact's details</p>
@@ -1027,7 +979,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_addAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#139-177" title="Go to source code">addAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#121-158" title="Go to source code">addAction</a>( )</code>
 
 			<div class="description short">
 				<p>Add new staff member</p>
@@ -1056,7 +1008,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_editAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#179-224" title="Go to source code">editAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#160-208" title="Go to source code">editAction</a>( )</code>
 
 			<div class="description short">
 				<p>Edit a contact's details</p>
@@ -1085,7 +1037,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_deleteAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#226-248" title="Go to source code">deleteAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#210-232" title="Go to source code">deleteAction</a>( )</code>
 
 			<div class="description short">
 				<p>Delete a contact</p>
@@ -1114,7 +1066,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_avatarAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#250-286" title="Go to source code">avatarAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#234-270" title="Go to source code">avatarAction</a>( )</code>
 
 			<div class="description short">
 				<p>provide an avatar for a contact</p>
@@ -1143,7 +1095,7 @@ Zend_Controller_Action
 
 			<td class="name"><div>
 			<a class="anchor" href="#_logoAction">#</a>
-			<code><a href="source-class-Admin_ContactsController.html#288-326" title="Go to source code">logoAction</a>( )</code>
+			<code><a href="source-class-Admin_ContactsController.html#272-310" title="Go to source code">logoAction</a>( )</code>
 
 			<div class="description short">
 				<p>Give them a logo</p>
@@ -1198,7 +1150,7 @@ Zend_Controller_Action
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Admin_ContactsController.html#26-29" title="Go to source code"><b>LOGOPATH</b></a>
+						<a href="source-class-Admin_ContactsController.html#25-28" title="Go to source code"><b>LOGOPATH</b></a>
 					</code>
 
 					<div class="description short">
@@ -1222,7 +1174,7 @@ Zend_Controller_Action
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Admin_ContactsController.html#31-34" title="Go to source code"><b>STAFFPATH</b></a>
+						<a href="source-class-Admin_ContactsController.html#30-33" title="Go to source code"><b>STAFFPATH</b></a>
 					</code>
 
 					<div class="description short">
@@ -1246,7 +1198,7 @@ Zend_Controller_Action
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Admin_ContactsController.html#36" title="Go to source code"><b>SMALL</b></a>
+						<a href="source-class-Admin_ContactsController.html#35" title="Go to source code"><b>SMALL</b></a>
 					</code>
 
 					<div class="description short">
@@ -1270,7 +1222,7 @@ Zend_Controller_Action
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Admin_ContactsController.html#38" title="Go to source code"><b>RESIZED</b></a>
+						<a href="source-class-Admin_ContactsController.html#37" title="Go to source code"><b>RESIZED</b></a>
 					</code>
 
 					<div class="description short">
@@ -1305,31 +1257,6 @@ Zend_Controller_Action
 		<div class="panel panel-default">
             <div class="panel-heading"><h2>Properties summary</h2></div>
 			<table class="summary table table-bordered table-striped properties" id="properties">
-		<tr data-order="_geoPlanet" id="$_geoPlanet">
-			<td class="attributes"><code>
-				protected  
-				Pas_Service_Geo_Geoplanet
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Admin_ContactsController.html#40-44" title="Go to source code"><var>$_geoPlanet</var></a>
-
-				<div class="description short">
-					<p>The geoplanet class</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>The geoplanet class</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_geoPlanet" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
 		<tr data-order="_geocoder" id="$_geocoder">
 			<td class="attributes"><code>
 				protected  
@@ -1337,7 +1264,7 @@ Zend_Controller_Action
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Admin_ContactsController.html#76-80" title="Go to source code"><var>$_geocoder</var></a>
+					<a href="source-class-Admin_ContactsController.html#59-63" title="Go to source code"><var>$_geocoder</var></a>
 
 				<div class="description short">
 					<p>The geocoding class</p>
@@ -1362,7 +1289,7 @@ Zend_Controller_Action
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Admin_ContactsController.html#82-86" title="Go to source code"><var>$_contacts</var></a>
+					<a href="source-class-Admin_ContactsController.html#65-69" title="Go to source code"><var>$_contacts</var></a>
 
 				<div class="description short">
 					<p>The contacts model</p>
@@ -1387,7 +1314,7 @@ Zend_Controller_Action
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Admin_ContactsController.html#88-92" title="Go to source code"><var>$_redirectUrl</var></a>
+					<a href="source-class-Admin_ContactsController.html#71-75" title="Go to source code"><var>$_redirectUrl</var></a>
 
 				<div class="description short">
 					<p>The redirect url</p>
@@ -1431,7 +1358,7 @@ Zend_Controller_Action
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Coroners</title>
+	<title>Class Coroners | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -765,7 +751,7 @@ Zend_Db_Table_Abstract
 				<code><a href="class-Contacts_CoronersController.html">Contacts_CoronersController</a></code><br>
 				<b>Example:</b>
 				/app/modules/admin/controllers/CoronersController.php<br>
-			<b>Located at</b> <a href="source-class-Coroners.html#3-156" title="Go to source code">app/models/Coroners.php</a>
+			<b>Located at</b> <a href="source-class-Coroners.html#3-137" title="Go to source code">app/models/Coroners.php</a>
 		<br>
 	</div>
 
@@ -774,39 +760,6 @@ Zend_Db_Table_Abstract
 		<div class="panel panel-default">
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
-		<tr data-order="getGeoPlanet" id="_getGeoPlanet">
-
-			<td class="attributes"><code>
-				 public 
-				Pas_Service_Geo_Geoplanet
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_getGeoPlanet">#</a>
-			<code><a href="source-class-Coroners.html#51-59" title="Go to source code">getGeoPlanet</a>( )</code>
-
-			<div class="description short">
-				<p>Get the geoplanet service</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Get the geoplanet service</p>
-
-
-
-					<h4>Returns</h4>
-					<div class="list">
-						Pas_Service_Geo_Geoplanet
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="getGeoCoder" id="_getGeoCoder">
 
 			<td class="attributes"><code>
@@ -818,7 +771,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getGeoCoder">#</a>
-			<code><a href="source-class-Coroners.html#61-69" title="Go to source code">getGeoCoder</a>( )</code>
+			<code><a href="source-class-Coroners.html#45-53" title="Go to source code">getGeoCoder</a>( )</code>
 
 			<div class="description short">
 				<p>Get the geocoder class</p>
@@ -851,7 +804,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAll">#</a>
-			<code><a href="source-class-Coroners.html#72-87" title="Go to source code">getAll</a>( <span>array <var>$params</var></span> )</code>
+			<code><a href="source-class-Coroners.html#56-71" title="Go to source code">getAll</a>( <span>array <var>$params</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve all coroners on the system</p>
@@ -889,7 +842,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCoronerDetails">#</a>
-			<code><a href="source-class-Coroners.html#89-104" title="Go to source code">getCoronerDetails</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Coroners.html#73-88" title="Go to source code">getCoronerDetails</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve individual coroner details</p>
@@ -927,7 +880,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_addCoroner">#</a>
-			<code><a href="source-class-Coroners.html#106-115" title="Go to source code">addCoroner</a>( <span>array <var>$data</var></span> )</code>
+			<code><a href="source-class-Coroners.html#90-99" title="Go to source code">addCoroner</a>( <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Add a coroner to the system</p>
@@ -965,7 +918,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_updateCoroner">#</a>
-			<code><a href="source-class-Coroners.html#117-128" title="Go to source code">updateCoroner</a>( <span>array <var>$data</var></span>, <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Coroners.html#101-112" title="Go to source code">updateCoroner</a>( <span>array <var>$data</var></span>, <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Update a coroner</p>
@@ -1001,7 +954,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#__geocodeAddress">#</a>
-			<code><a href="source-class-Coroners.html#130-155" title="Go to source code">_geocodeAddress</a>( <span>array <var>$data</var></span> )</code>
+			<code><a href="source-class-Coroners.html#114-136" title="Go to source code">_geocodeAddress</a>( <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Geocode the address</p>
@@ -1076,31 +1029,6 @@ Zend_Db_Table_Abstract
 		<div class="panel panel-default">
             <div class="panel-heading"><h2>Properties summary</h2></div>
 			<table class="summary table table-bordered table-striped properties" id="properties">
-		<tr data-order="_geoPlanet" id="$_geoPlanet">
-			<td class="attributes"><code>
-				protected  
-				Pas_Service_Geo_Geoplanet
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Coroners.html#27-31" title="Go to source code"><var>$_geoPlanet</var></a>
-
-				<div class="description short">
-					<p>The geoplanet service</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>The geoplanet service</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_geoPlanet" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
 		<tr data-order="_geoCoder" id="$_geoCoder">
 			<td class="attributes"><code>
 				protected  
@@ -1108,7 +1036,7 @@ Zend_Db_Table_Abstract
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Coroners.html#33-37" title="Go to source code"><var>$_geoCoder</var></a>
+					<a href="source-class-Coroners.html#27-31" title="Go to source code"><var>$_geoCoder</var></a>
 
 				<div class="description short">
 					<p>The geocoder</p>
@@ -1133,7 +1061,7 @@ Zend_Db_Table_Abstract
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Coroners.html#39-43" title="Go to source code"><var>$_name</var></a>
+					<a href="source-class-Coroners.html#33-37" title="Go to source code"><var>$_name</var></a>
 
 				<div class="description short">
 					<p>The table name</p>
@@ -1158,7 +1086,7 @@ Zend_Db_Table_Abstract
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Coroners.html#45-49" title="Go to source code"><var>$_primary</var></a>
+					<a href="source-class-Coroners.html#39-43" title="Go to source code"><var>$_primary</var></a>
 
 				<div class="description short">
 					<p>The primary key</p>
@@ -1198,7 +1126,7 @@ Zend_Db_Table_Abstract
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Pas_Service_GoogleShortUrl</title>
+	<title>Class Pas_Service_GoogleShortUrl | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -536,6 +522,7 @@
 			<ul>
 				<li class="active"><a href="class-Pas_Service_GoogleShortUrl.html">Pas_Service_GoogleShortUrl</a></li>
 				<li><a href="class-Pas_Service_SketchFabOembed.html">Pas_Service_SketchFabOembed</a></li>
+				<li><a href="class-Pas_Service_What3words.html">Pas_Service_What3words</a></li>
 			</ul>
 
 
@@ -590,7 +577,11 @@
 				Daniel Pett <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x64;&#112;&#x65;&#116;&#x74;&#64;&#x62;&#114;&#x69;&#116;&#x69;&#115;&#x68;&#109;&#x75;&#115;&#x65;&#117;&#x6d;&#46;&#x6f;&#114;&#x67;">&#x64;&#112;&#x65;&#116;&#x74;&#64;&#x62;&#114;&#x69;&#116;&#x69;&#115;&#x68;&#109;&#x75;&#115;&#x65;&#117;&#x6d;&#46;&#x6f;&#114;&#x67;</a><br>
 				<b>Version:</b>
 				1<br>
-			<b>Located at</b> <a href="source-class-Pas_Service_GoogleShortUrl.html#2-210" title="Go to source code">library/Pas/Service/GoogleShortUrl.php</a>
+				<b>Uses:</b>
+				<code><a href="class-Pas_Exception_Url.html">Pas_Exception_Url</a></code><br>
+				<b>Uses:</b>
+				\Zend_Http_Client<br>
+			<b>Located at</b> <a href="source-class-Pas_Service_GoogleShortUrl.html#2-212" title="Go to source code">library/Pas/Service/GoogleShortUrl.php</a>
 		<br>
 	</div>
 
@@ -610,7 +601,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#48-55" title="Go to source code">__construct</a>( <span>string <var>$key</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#50-57" title="Go to source code">__construct</a>( <span>string <var>$key</var></span> )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -648,7 +639,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_shorten">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#57-66" title="Go to source code">shorten</a>( <span>string <var>$url</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#59-68" title="Go to source code">shorten</a>( <span>string <var>$url</var></span> )</code>
 
 			<div class="description short">
 				<p>Function to shorten a given url</p>
@@ -686,7 +677,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_expand">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#68-77" title="Go to source code">expand</a>( <span>string <var>$url</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#70-79" title="Go to source code">expand</a>( <span>string <var>$url</var></span> )</code>
 
 			<div class="description short">
 				<p>Expand a url from goo.gl's api</p>
@@ -724,7 +715,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_analytics">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#79-98" title="Go to source code">analytics</a>( <span>string <var>$shortUrl</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#81-100" title="Go to source code">analytics</a>( <span>string <var>$shortUrl</var></span> )</code>
 
 			<div class="description short">
 				<p>Get analytics for a URL</p>
@@ -762,7 +753,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getDecode">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#100-109" title="Go to source code">getDecode</a>( <span>string <var>$response</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#102-111" title="Go to source code">getDecode</a>( <span>string <var>$response</var></span> )</code>
 
 			<div class="description short">
 				<p>Decode the response from JSON</p>
@@ -800,7 +791,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getStatus">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#111-134" title="Go to source code">getStatus</a>( <span>object <var>$response</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#113-136" title="Go to source code">getStatus</a>( <span>object <var>$response</var></span> )</code>
 
 			<div class="description short">
 				<p>Check the request status</p>
@@ -834,7 +825,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_checkUrl">#</a>
-			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#136-146" title="Go to source code">checkUrl</a>( <span>string <var>$url</var></span> )</code>
+			<code><a href="source-class-Pas_Service_GoogleShortUrl.html#138-148" title="Go to source code">checkUrl</a>( <span>string <var>$url</var></span> )</code>
 
 			<div class="description short">
 				<p>Check that the URL is valid</p>
@@ -879,7 +870,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Pas_Service_GoogleShortUrl.html#22-25" title="Go to source code"><b>GOOGLE</b></a>
+						<a href="source-class-Pas_Service_GoogleShortUrl.html#24-27" title="Go to source code"><b>GOOGLE</b></a>
 					</code>
 
 					<div class="description short">
@@ -903,7 +894,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Pas_Service_GoogleShortUrl.html#27-30" title="Go to source code"><b>INVALIDURL</b></a>
+						<a href="source-class-Pas_Service_GoogleShortUrl.html#29-32" title="Go to source code"><b>INVALIDURL</b></a>
 					</code>
 
 					<div class="description short">
@@ -927,7 +918,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Pas_Service_GoogleShortUrl.html#32-35" title="Go to source code"><b>INVALIDSHORTURL</b></a>
+						<a href="source-class-Pas_Service_GoogleShortUrl.html#34-37" title="Go to source code"><b>INVALIDSHORTURL</b></a>
 					</code>
 
 					<div class="description short">
@@ -951,7 +942,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Pas_Service_GoogleShortUrl.html#37-40" title="Go to source code"><b>GOOGLEURL</b></a>
+						<a href="source-class-Pas_Service_GoogleShortUrl.html#39-42" title="Go to source code"><b>GOOGLEURL</b></a>
 					</code>
 
 					<div class="description short">
@@ -986,7 +977,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Pas_Service_GoogleShortUrl.html#42-46" title="Go to source code"><var>$_api</var></a>
+					<a href="source-class-Pas_Service_GoogleShortUrl.html#44-48" title="Go to source code"><var>$_api</var></a>
 
 				<div class="description short">
 					<p>The api object</p>
@@ -1016,7 +1007,7 @@
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Slides</title>
+	<title>Class Slides | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -765,7 +751,7 @@ Zend_Db_Table_Abstract
 				<code><a href="class-Database_ImagesController.html">Database_ImagesController</a></code><br>
 				<b>Example:</b>
 				/app/modules/database/controllers/ArtefactsController.php<br>
-			<b>Located at</b> <a href="source-class-Slides.html#3-319" title="Go to source code">app/models/Slides.php</a>
+			<b>Located at</b> <a href="source-class-Slides.html#3-383" title="Go to source code">app/models/Slides.php</a>
 		<br>
 	</div>
 
@@ -785,7 +771,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getThumbnails">#</a>
-			<code><a href="source-class-Slides.html#51-82" title="Go to source code">getThumbnails</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var></span> )</code>
+			<code><a href="source-class-Slides.html#51-90" title="Go to source code">getThumbnails</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var></span> )</code>
 
 			<div class="description short">
 				<p>Get thumbnails for a particular find number</p>
@@ -825,7 +811,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getSlides">#</a>
-			<code><a href="source-class-Slides.html#85-104" title="Go to source code">getSlides</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#93-122" title="Go to source code">getSlides</a>( <span>integer <var>$id</var></span>, <span> <var>$recordType</var></span> )</code>
 
 			<div class="description short">
 				<p>Get thumbnails for a particular find number</p>
@@ -838,6 +824,8 @@ Zend_Db_Table_Abstract
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$id</var></dt>
+						<dd></dd>
+						<dt><var>$recordType</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -863,7 +851,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getThumb">#</a>
-			<code><a href="source-class-Slides.html#106-123" title="Go to source code">getThumb</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#124-141" title="Go to source code">getThumb</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Get specific thumbnails</p>
@@ -901,7 +889,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getImage">#</a>
-			<code><a href="source-class-Slides.html#126-152" title="Go to source code">getImage</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#144-170" title="Go to source code">getImage</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Get a specific image</p>
@@ -939,7 +927,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getLinkedFinds">#</a>
-			<code><a href="source-class-Slides.html#154-177" title="Go to source code">getLinkedFinds</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#172-207" title="Go to source code">getLinkedFinds</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var></span> )</code>
 
 			<div class="description short">
 				<p>Get linked finds to an image</p>
@@ -952,6 +940,8 @@ Zend_Db_Table_Abstract
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$id</var></dt>
+						<dd></dd>
+						<dt><var>$type</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -977,7 +967,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getImageForLinks">#</a>
-			<code><a href="source-class-Slides.html#179-191" title="Go to source code">getImageForLinks</a>( <span>string <var>$secuid</var></span> )</code>
+			<code><a href="source-class-Slides.html#209-221" title="Go to source code">getImageForLinks</a>( <span>string <var>$secuid</var></span> )</code>
 
 			<div class="description short">
 				<p>Get linked finds to an image</p>
@@ -1015,7 +1005,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getFileName">#</a>
-			<code><a href="source-class-Slides.html#193-208" title="Go to source code">getFileName</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#223-249" title="Go to source code">getFileName</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var></span> )</code>
 
 			<div class="description short">
 				<p>Get the filename for an image number</p>
@@ -1028,6 +1018,8 @@ Zend_Db_Table_Abstract
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$id</var></dt>
+						<dd></dd>
+						<dt><var>$type</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -1053,7 +1045,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_fetchDelete">#</a>
-			<code><a href="source-class-Slides.html#210-224" title="Go to source code">fetchDelete</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-Slides.html#251-265" title="Go to source code">fetchDelete</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Fetch deletion data</p>
@@ -1091,7 +1083,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getSolrData">#</a>
-			<code><a href="source-class-Slides.html#226-266" title="Go to source code">getSolrData</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var> = <span class="php-keyword1">NULL</span></span> )</code>
+			<code><a href="source-class-Slides.html#267-321" title="Go to source code">getSolrData</a>( <span>integer <var>$id</var></span>, <span> <var>$type</var> = <span class="php-keyword1">NULL</span></span> )</code>
 
 			<div class="description short">
 				<p>Solr data for updating the system</p>
@@ -1131,7 +1123,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_addAndResize">#</a>
-			<code><a href="source-class-Slides.html#268-318" title="Go to source code">addAndResize</a>( <span>array <var>$imageData</var></span> )</code>
+			<code><a href="source-class-Slides.html#323-382" title="Go to source code">addAndResize</a>( <span>array <var>$imageData</var></span>, <span> <var>$type</var></span> )</code>
 
 			<div class="description short">
 				<p>Add and resize images</p>
@@ -1144,6 +1136,8 @@ Zend_Db_Table_Abstract
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$imageData</var></dt>
+						<dd></dd>
+						<dt><var>$type</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -1320,7 +1314,7 @@ Zend_Db_Table_Abstract
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

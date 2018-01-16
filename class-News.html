@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class News</title>
+	<title>Class News | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -765,7 +751,7 @@ Zend_Db_Table_Abstract
 				<code><a href="class-News_StoryController.html">News_StoryController</a></code><br>
 				<b>Used by:</b>
 				<code><a href="class-Users_NewsController.html">Users_NewsController</a></code><br>
-			<b>Located at</b> <a href="source-class-News.html#3-330" title="Go to source code">app/models/News.php</a>
+			<b>Located at</b> <a href="source-class-News.html#3-313" title="Go to source code">app/models/News.php</a>
 		<br>
 	</div>
 
@@ -774,39 +760,6 @@ Zend_Db_Table_Abstract
 		<div class="panel panel-default">
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
-		<tr data-order="getGeoPlanet" id="_getGeoPlanet">
-
-			<td class="attributes"><code>
-				 public 
-				Pas_Service_Geo_Geoplanet
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_getGeoPlanet">#</a>
-			<code><a href="source-class-News.html#59-67" title="Go to source code">getGeoPlanet</a>( )</code>
-
-			<div class="description short">
-				<p>Get the geoplanet service</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Get the geoplanet service</p>
-
-
-
-					<h4>Returns</h4>
-					<div class="list">
-						Pas_Service_Geo_Geoplanet
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="getGeoCoder" id="_getGeoCoder">
 
 			<td class="attributes"><code>
@@ -818,7 +771,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getGeoCoder">#</a>
-			<code><a href="source-class-News.html#69-77" title="Go to source code">getGeoCoder</a>( )</code>
+			<code><a href="source-class-News.html#53-61" title="Go to source code">getGeoCoder</a>( )</code>
 
 			<div class="description short">
 				<p>Get the geocoder class</p>
@@ -851,7 +804,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getNews">#</a>
-			<code><a href="source-class-News.html#79-93" title="Go to source code">getNews</a>( )</code>
+			<code><a href="source-class-News.html#63-77" title="Go to source code">getNews</a>( )</code>
 
 			<div class="description short">
 				<p>Get all news articles</p>
@@ -884,7 +837,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getHeadlines">#</a>
-			<code><a href="source-class-News.html#95-114" title="Go to source code">getHeadlines</a>( )</code>
+			<code><a href="source-class-News.html#79-98" title="Go to source code">getHeadlines</a>( )</code>
 
 			<div class="description short">
 				<p>get all news articles headlines limited to 5</p>
@@ -917,7 +870,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAllNewsArticles">#</a>
-			<code><a href="source-class-News.html#116-148" title="Go to source code">getAllNewsArticles</a>( <span>array <var>$params</var></span> )</code>
+			<code><a href="source-class-News.html#100-132" title="Go to source code">getAllNewsArticles</a>( <span>array <var>$params</var></span> )</code>
 
 			<div class="description short">
 				<p>Get all news articles paginated for public view</p>
@@ -955,7 +908,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getAllNewsArticlesAdmin">#</a>
-			<code><a href="source-class-News.html#150-174" title="Go to source code">getAllNewsArticlesAdmin</a>( <span>array <var>$params</var></span> )</code>
+			<code><a href="source-class-News.html#134-158" title="Go to source code">getAllNewsArticlesAdmin</a>( <span>array <var>$params</var></span> )</code>
 
 			<div class="description short">
 				<p>Get all news articles paginated for admin interface</p>
@@ -993,7 +946,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getStory">#</a>
-			<code><a href="source-class-News.html#176-198" title="Go to source code">getStory</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-News.html#160-182" title="Go to source code">getStory</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Retrieve a news story by the id number</p>
@@ -1031,7 +984,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getMapData">#</a>
-			<code><a href="source-class-News.html#200-214" title="Go to source code">getMapData</a>( )</code>
+			<code><a href="source-class-News.html#184-198" title="Go to source code">getMapData</a>( )</code>
 
 			<div class="description short">
 				<p>Retrieve  news stories to show on map or as kml</p>
@@ -1064,7 +1017,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getSitemapNews">#</a>
-			<code><a href="source-class-News.html#216-233" title="Go to source code">getSitemapNews</a>( )</code>
+			<code><a href="source-class-News.html#200-217" title="Go to source code">getSitemapNews</a>( )</code>
 
 			<div class="description short">
 				<p>Retrieve news stories for site map that are available publicly</p>
@@ -1097,7 +1050,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getCoords">#</a>
-			<code><a href="source-class-News.html#235-250" title="Go to source code">getCoords</a>( <span> <var>$place</var></span> )</code>
+			<code><a href="source-class-News.html#219-233" title="Go to source code">getCoords</a>( <span> <var>$place</var></span> )</code>
 
 			<div class="description short">
 				
@@ -1126,7 +1079,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_addNews">#</a>
-			<code><a href="source-class-News.html#252-281" title="Go to source code">addNews</a>( <span>array <var>$data</var></span> )</code>
+			<code><a href="source-class-News.html#235-264" title="Go to source code">addNews</a>( <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Add news to the database</p>
@@ -1168,7 +1121,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_updateNews">#</a>
-			<code><a href="source-class-News.html#283-302" title="Go to source code">updateNews</a>( <span>array <var>$data</var></span>, <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-News.html#266-285" title="Go to source code">updateNews</a>( <span>array <var>$data</var></span>, <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Update the news</p>
@@ -1208,7 +1161,7 @@ Zend_Db_Table_Abstract
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getSolrData">#</a>
-			<code><a href="source-class-News.html#304-329" title="Go to source code">getSolrData</a>( <span>integer <var>$id</var></span> )</code>
+			<code><a href="source-class-News.html#287-312" title="Go to source code">getSolrData</a>( <span>integer <var>$id</var></span> )</code>
 
 			<div class="description short">
 				<p>Get data to update the solr instance</p>
@@ -1329,31 +1282,6 @@ Zend_Db_Table_Abstract
 				</div>
 			</td>
 		</tr>
-		<tr data-order="_geoPlanet" id="$_geoPlanet">
-			<td class="attributes"><code>
-				protected  
-				Pas_Service_Geo_Geoplanet
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-News.html#41-45" title="Go to source code"><var>$_geoPlanet</var></a>
-
-				<div class="description short">
-					<p>The geoplanet service</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>The geoplanet service</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_geoPlanet" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
 		<tr data-order="_geoCoder" id="$_geoCoder">
 			<td class="attributes"><code>
 				protected  
@@ -1361,7 +1289,7 @@ Zend_Db_Table_Abstract
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-News.html#47-51" title="Go to source code"><var>$_geoCoder</var></a>
+					<a href="source-class-News.html#41-45" title="Go to source code"><var>$_geoCoder</var></a>
 
 				<div class="description short">
 					<p>The geocoder</p>
@@ -1386,7 +1314,7 @@ Zend_Db_Table_Abstract
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-News.html#53-57" title="Go to source code"><var>$_higherlevel</var></a>
+					<a href="source-class-News.html#47-51" title="Go to source code"><var>$_higherlevel</var></a>
 
 				<div class="description short">
 					<p>Higher level access</p>
@@ -1426,7 +1354,7 @@ Zend_Db_Table_Abstract
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>

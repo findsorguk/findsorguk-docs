@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Pas_Geo_Gridcalc</title>
+	<title>Class Pas_Geo_Gridcalc | Portable Antiquities Scheme documentation</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -14,7 +14,7 @@
 	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Overview</a>
+				<a href="index.html" class="navbar-brand">Portable Antiquities Scheme documentation</a>
 			</div>
 			<div class="collapse navbar-collapse">
 
@@ -49,7 +49,17 @@
 			<ul>
 					<li>
 						<a href="package-Analytics.html">
-							Analytics						</a>
+							Analytics<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Analytics.Dates.html">
+							Dates						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-ArrayFunctions.html">
+							ArrayFunctions						</a>
 							</li>
 					<li>
 						<a href="package-Calendar.html">
@@ -70,10 +80,6 @@
 							Admin						</a>
 							</li>
 					<li>
-						<a href="package-Controller.Action.Ajax.html">
-							Ajax						</a>
-							</li>
-					<li>
 						<a href="package-Controller.Action.Helper.html">
 							Helper						</a>
 							</li>
@@ -83,6 +89,10 @@
 							Plugin						</a>
 							</li>
 								</ul></li>
+					<li>
+						<a href="package-Crro.html">
+							Crro						</a>
+							</li>
 					<li>
 						<a href="package-Curl.html">
 							Curl						</a>
@@ -143,6 +153,14 @@
 							</li>
 								</ul></li>
 					<li>
+						<a href="package-Image.html">
+							Image						</a>
+							</li>
+					<li>
+						<a href="package-Nomisma.html">
+							Nomisma						</a>
+							</li>
+					<li>
 						<a href="package-None.html">
 							None						</a>
 							</li>
@@ -161,8 +179,8 @@
 							</li>
 								</ul></li>
 					<li>
-						<a href="package-PAS.html">
-							PAS<span></span>
+						<a href="package-Pas.html">
+							Pas<span></span>
 						</a>
 							<ul>
 					<li>
@@ -391,25 +409,10 @@
 						</a>
 							<ul>
 					<li>
-						<a href="package-Pas.View..html">
-							<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View..Helper.html">
+						<a href="package-Pas.View.Helper.html">
 							Helper						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Pas.View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-Pas.View.Helper.Abstract.html">
-							Abstract						</a>
-							</li>
-								</ul></li></ul></li>
 					<li>
 						<a href="package-Pas.Yql.html">
 							Yql						</a>
@@ -429,10 +432,6 @@
 							Client						</a>
 							</li>
 								</ul></li>
-					<li>
-						<a href="package-Service.html">
-							Service						</a>
-							</li>
 					<li>
 						<a href="package-Solr.html">
 							Solr<span></span>
@@ -472,22 +471,9 @@
 							<ul>
 					<li>
 						<a href="package-View.Helper.html">
-							Helper<span></span>
-						</a>
-							<ul>
-					<li>
-						<a href="package-View.Helper.Abstract.html">
-							Abstract						</a>
+							Helper						</a>
 							</li>
-					<li>
-						<a href="package-View.Helper.Href.html">
-							Href						</a>
-							</li>
-					<li>
-						<a href="package-View.Helper.WhatYouWantToDoAdmin.html">
-							WhatYouWantToDoAdmin						</a>
-							</li>
-								</ul></li></ul></li>
+								</ul></li>
 					<li>
 						<a href="package-Yql.html">
 							Yql<span></span>
@@ -595,7 +581,7 @@ from https://gist.github.com/840476</p>
 				22 September 2011<br>
 				<b>Example:</b>
 				/app/models/Findspots.php<br>
-			<b>Located at</b> <a href="source-class-Pas_Geo_Gridcalc.html#2-1012" title="Go to source code">library/Pas/Geo/Gridcalc.php</a>
+			<b>Located at</b> <a href="source-class-Pas_Geo_Gridcalc.html#3-1034" title="Go to source code">library/Pas/Geo/Gridcalc.php</a>
 		<br>
 	</div>
 
@@ -615,7 +601,7 @@ from https://gist.github.com/840476</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#87-97" title="Go to source code">__construct</a>( <span>string <var>$gridref</var></span>, <span>string <var>$datum</var> = <span class="php-quote">'WGS 84'</span></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#84-95" title="Go to source code">__construct</a>( <span>string <var>$gridref</var></span>, <span>string <var>$datum</var> = <span class="php-quote">'WGS 84'</span></span> )</code>
 
 			<div class="description short">
 				<p>Set up the constructor and objects</p>
@@ -640,124 +626,6 @@ from https://gist.github.com/840476</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="_getaccuracy" id="__getaccuracy">
-
-			<td class="attributes"><code>
-				 public 
-				boolean|real
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__getaccuracy">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#111-151" title="Go to source code">_getaccuracy</a>( <span>string <var>$clean</var> = <span class="php-num">1</span></span>, <span>boolean <var>$clean</var>,…</span> )</code>
-
-			<div class="description short">
-				<p>Get the accuracy of a grid reference to metres</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Get the accuracy of a grid reference to metres</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$clean</var></dt>
-						<dd>$gridref The grid reference to clean</dd>
-						<dt><var>$clean</var>,…</dt>
-						<dd>Clean or leave grid reference as is. Default true</dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						boolean|real
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="fourFigure" id="_fourFigure">
-
-			<td class="attributes"><code>
-				 public 
-				string
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_fourFigure">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#153-176" title="Go to source code">fourFigure</a>( <span>string <var>$digits</var> = <span class="php-num">4</span></span>, <span>integer <var>$digits</var>,…</span> )</code>
-
-			<div class="description short">
-				<p>Produce a fourfigure National grid reference from a string.</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Produce a fourfigure National grid reference from a string.</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$digits</var></dt>
-						<dd>$gridref</dd>
-						<dt><var>$digits</var>,…</dt>
-						<dd>Defaults to 4 digits.</dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						string
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="_countcheck" id="__countcheck">
-
-			<td class="attributes"><code>
-				 public 
-				boolean
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__countcheck">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#178-190" title="Go to source code">_countcheck</a>( <span>integer <var>$rawcount</var></span> )</code>
-
-			<div class="description short">
-				<p>Function to check if the grid reference is the correct length</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Function to check if the grid reference is the correct length</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$rawcount</var></dt>
-						<dd></dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						boolean
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="convert" id="_convert">
 
 			<td class="attributes"><code>
@@ -769,7 +637,7 @@ from https://gist.github.com/840476</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_convert">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#192-407" title="Go to source code">convert</a>( <span>string <var>$unit</var> = <span class="php-quote">'m'</span></span>, <span>integer <var>$round</var> = <span class="php-num">8</span></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#97-313" title="Go to source code">convert</a>( <span>string <var>$unit</var> = <span class="php-quote">'m'</span></span>, <span>integer <var>$round</var> = <span class="php-num">8</span></span> )</code>
 
 			<div class="description short">
 				<p>Function to convert OSGB grid reference string</p>
@@ -798,6 +666,134 @@ from https://gist.github.com/840476</p>
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="_countcheck" id="__countcheck">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__countcheck">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#328-341" title="Go to source code">_countcheck</a>( <span>integer <var>$rawcount</var></span> )</code>
+
+			<div class="description short">
+				<p>Function to check if the grid reference is the correct length</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Function to check if the grid reference is the correct length</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$rawcount</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_getaccuracy" id="__getaccuracy">
+
+			<td class="attributes"><code>
+				 public 
+				boolean|real
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__getaccuracy">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#343-384" title="Go to source code">_getaccuracy</a>( <span>string <var>$clean</var> = <span class="php-num">1</span></span>, <span>boolean <var>$clean</var>,…</span> )</code>
+
+			<div class="description short">
+				<p>Get the accuracy of a grid reference to metres</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the accuracy of a grid reference to metres</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$clean</var></dt>
+						<dd>$gridref The grid reference to clean</dd>
+						<dt><var>$clean</var>,…</dt>
+						<dd>Clean or leave grid reference as is. Default true</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean|real
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_eNtoLat" id="__eNtoLat">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__eNtoLat">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#386-425" title="Go to source code">_eNtoLat</a>( <span> <var>$East</var></span>, <span> <var>$North</var></span>, <span>string <var>$a</var></span>, <span>string <var>$b</var></span>, <span>string <var>$e0</var></span>, <span>string <var>$n0</var></span>, <span>integer <var>$f0</var></span>, <span>float <var>$PHI0</var></span>, <span>float <var>$LAM0</var></span> )</code>
+
+			<div class="description short">
+				<p>Un-project Transverse Mercator eastings and northings back to latitude.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Un-project Transverse Mercator eastings and northings back to latitude.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$East</var></dt>
+						<dd>in metres</dd>
+						<dt><var>$North</var></dt>
+						<dd>in metres</dd>
+						<dt><var>$a</var></dt>
+						<dd>ellipsoid axis in metres</dd>
+						<dt><var>$b</var></dt>
+						<dd>ellipsoid axis in metres</dd>
+						<dt><var>$e0</var></dt>
+						<dd>eastings false origin</dd>
+						<dt><var>$n0</var></dt>
+						<dd>northings false origin</dd>
+						<dt><var>$f0</var></dt>
+						<dd>central meridian scale factor</dd>
+						<dt><var>$PHI0</var></dt>
+						<dd>latitude of false origin in dec degrees</dd>
+						<dt><var>$LAM0</var></dt>
+						<dd>longitude of false origin in dec degrees</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="_initialLat" id="__initialLat">
 
 			<td class="attributes"><code>
@@ -809,7 +805,7 @@ from https://gist.github.com/840476</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__initialLat">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#409-434" title="Go to source code">_initialLat</a>( <span> <var>$North</var></span>, <span> <var>$n0</var></span>, <span> <var>$afo</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$n</var></span>, <span> <var>$bfo</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#427-453" title="Go to source code">_initialLat</a>( <span> <var>$North</var></span>, <span> <var>$n0</var></span>, <span> <var>$afo</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$n</var></span>, <span> <var>$bfo</var></span> )</code>
 
 			<div class="description short">
 				<p>Compute initial value for Latitude (PHI) IN RADIANS.
@@ -850,6 +846,46 @@ THIS FUNCTION IS CALLED BY THE "E_N_to_Lat", "E_N_to_Long" and "E_N_to_C" FUNCTI
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="_marc" id="__marc">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__marc">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#455-474" title="Go to source code">_marc</a>( <span> <var>$bFo</var></span>, <span> <var>$n</var></span>, <span> <var>$P1</var></span>, <span> <var>$P2</var></span> )</code>
+
+			<div class="description short">
+				<p>Function for computing the meridional arc - used internally</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Function for computing the meridional arc - used internally</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$bFo</var></dt>
+						<dd></dd>
+						<dt><var>$n</var></dt>
+						<dd></dd>
+						<dt><var>$P1</var></dt>
+						<dd></dd>
+						<dt><var>$P2</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="_latLongHtoX" id="__latLongHtoX">
 
 			<td class="attributes"><code>
@@ -861,7 +897,7 @@ THIS FUNCTION IS CALLED BY THE "E_N_to_Lat", "E_N_to_Long" and "E_N_to_C" FUNCTI
 
 			<td class="name"><div>
 			<a class="anchor" href="#__latLongHtoX">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#436-452" title="Go to source code">_latLongHtoX</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#525-542" title="Go to source code">_latLongHtoX</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert geodetic coords lat (PHI), long (LAM) and height (H) to cartesian X coordinate.</p>
@@ -907,7 +943,7 @@ THIS FUNCTION IS CALLED BY THE "E_N_to_Lat", "E_N_to_Long" and "E_N_to_C" FUNCTI
 
 			<td class="name"><div>
 			<a class="anchor" href="#__latLongHtoY">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#454-472" title="Go to source code">_latLongHtoY</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#544-563" title="Go to source code">_latLongHtoY</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert geodetic coords lat (PHI), long (LAM) and height (H) to cartesian Y coordinate.</p>
@@ -953,7 +989,7 @@ THIS FUNCTION IS CALLED BY THE "E_N_to_Lat", "E_N_to_Long" and "E_N_to_C" FUNCTI
 
 			<td class="name"><div>
 			<a class="anchor" href="#__latHtoZ">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#474-490" title="Go to source code">_latHtoZ</a>( <span> <var>$PHI</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#565-582" title="Go to source code">_latHtoZ</a>( <span> <var>$PHI</var></span>, <span> <var>$H</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert geodetic coord components latitude (PHI) and height (H) to cartesian Z coordinate.</p>
@@ -997,7 +1033,7 @@ THIS FUNCTION IS CALLED BY THE "E_N_to_Lat", "E_N_to_Long" and "E_N_to_C" FUNCTI
 
 			<td class="name"><div>
 			<a class="anchor" href="#__helmertX">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#492-511" title="Go to source code">_helmertX</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DX</var></span>, <span> <var>$Y_Rot</var></span>, <span> <var>$Z_Rot</var></span>, <span> <var>$s</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#584-604" title="Go to source code">_helmertX</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DX</var></span>, <span> <var>$Y_Rot</var></span>, <span> <var>$Z_Rot</var></span>, <span> <var>$s</var></span> )</code>
 
 			<div class="description short">
 				<p>Computed Helmert transformed X coordinate//
@@ -1053,7 +1089,7 @@ Convert rotations to radians and ppm scale to a factor.</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__helmertY">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#513-531" title="Go to source code">_helmertY</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DY</var></span>, <span> <var>$X_Rot</var></span>, <span> <var>$Z_Rot</var></span>, <span> <var>$s</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#606-625" title="Go to source code">_helmertY</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DY</var></span>, <span> <var>$X_Rot</var></span>, <span> <var>$Z_Rot</var></span>, <span> <var>$s</var></span> )</code>
 
 			<div class="description short">
 				<p>Computed Helmert transformed Y coordinate.
@@ -1105,7 +1141,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__helmertZ">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#533-553" title="Go to source code">_helmertZ</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DZ</var></span>, <span> <var>$X_Rot</var></span>, <span> <var>$Y_Rot</var></span>, <span> <var>$s</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#627-648" title="Go to source code">_helmertZ</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$DZ</var></span>, <span> <var>$X_Rot</var></span>, <span> <var>$Y_Rot</var></span>, <span> <var>$s</var></span> )</code>
 
 			<div class="description short">
 				<p>Computed Helmert transformed Z coordinate.
@@ -1161,7 +1197,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__xyzToLat">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#556-574" title="Go to source code">_xyzToLat</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#650-669" title="Go to source code">_xyzToLat</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert XYZ to Latitude (PHI) in Dec Degrees.
@@ -1210,7 +1246,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__xyzToLong">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#602-610" title="Go to source code">_xyzToLong</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#698-707" title="Go to source code">_xyzToLong</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert XYZ to Longitude (LAM) in Dec Degrees.</p>
@@ -1239,6 +1275,138 @@ Convert rotations to radians and ppm scale to a factor</p>
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="fourFigure" id="_fourFigure">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_fourFigure">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#709-733" title="Go to source code">fourFigure</a>( <span>string <var>$digits</var> = <span class="php-num">4</span></span>, <span>integer <var>$digits</var>,…</span> )</code>
+
+			<div class="description short">
+				<p>Produce a fourfigure National grid reference from a string.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Produce a fourfigure National grid reference from a string.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$digits</var></dt>
+						<dd>$gridref</dd>
+						<dt><var>$digits</var>,…</dt>
+						<dd>Defaults to 4 digits.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_decimalToOrdinalCoords" id="__decimalToOrdinalCoords">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__decimalToOrdinalCoords">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#735-770" title="Go to source code">_decimalToOrdinalCoords</a>( <span>float <var>$lat</var></span>, <span>float <var>$lon</var></span> )</code>
+
+			<div class="description short">
+				<p>Convert a latlon pair to ordinal coordinates</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Convert a latlon pair to ordinal coordinates</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$lat</var></dt>
+						<dd>latitude to convert</dd>
+						<dt><var>$lon</var></dt>
+						<dd>longitude to convert</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>ordinal coordinates
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_convertLatLonUtm" id="__convertLatLonUtm">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__convertLatLonUtm">#</a>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#772-853" title="Go to source code">_convertLatLonUtm</a>( <span>float <var>$lat</var></span>, <span>float <var>$lon</var></span>, <span>float <var>$longOrigin</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Convert Longitude/Latitude to UTM
+This is derived from equations produced on the USGS Bulletin 1532
+Be aware that easterly longitudes are positive (eg +52) and westerly longitudes are negative (eg -10)
+Northerly latitudes are positive and southerly latitudes are negative</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Convert Longitude/Latitude to UTM
+This is derived from equations produced on the USGS Bulletin 1532
+Be aware that easterly longitudes are positive (eg +52) and westerly longitudes are negative (eg -10)
+Northerly latitudes are positive and southerly latitudes are negative</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$lat</var></dt>
+						<dd>Decimal latitude</dd>
+						<dt><var>$lon</var></dt>
+						<dd>Decimal longitude</dd>
+						<dt><var>$longOrigin</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>$UTM The UTM coordinates and the zone
+					</div>
+
+
+					<h4>See</h4>
+					<div class="list">
+							http://www.uwgb.edu/dutchs/usefuldata/utmformulas.htm<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="_xyzToH" id="__xyzToH">
 
 			<td class="attributes"><code>
@@ -1250,7 +1418,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__xyzToH">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#612-631" title="Go to source code">_xyzToH</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#908-928" title="Go to source code">_xyzToH</a>( <span> <var>$X</var></span>, <span> <var>$Y</var></span>, <span> <var>$Z</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span> )</code>
 
 			<div class="description short">
 				<p>Convert XYZ to Ellipsoidal Height.</p>
@@ -1296,7 +1464,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__latLongToEast">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#633-670" title="Go to source code">_latLongToEast</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span>, <span> <var>$e0</var></span>, <span> <var>$f0</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$LAM0</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#930-968" title="Go to source code">_latLongToEast</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span>, <span> <var>$e0</var></span>, <span> <var>$f0</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$LAM0</var></span> )</code>
 
 			<div class="description short">
 				<p>Project Latitude and longitude to Transverse Mercator eastings.
@@ -1353,7 +1521,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__latLongToNorth">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#672-711" title="Go to source code">_latLongToNorth</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span>, <span> <var>$e0</var></span>, <span> <var>$n0</var></span>, <span> <var>$f0</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$LAM0</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#970-1010" title="Go to source code">_latLongToNorth</a>( <span> <var>$PHI</var></span>, <span> <var>$LAM</var></span>, <span> <var>$a</var></span>, <span> <var>$b</var></span>, <span> <var>$e0</var></span>, <span> <var>$n0</var></span>, <span> <var>$f0</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$LAM0</var></span> )</code>
 
 			<div class="description short">
 				<p>Project Latitude and longitude to Transverse Mercator northings.
@@ -1401,96 +1569,6 @@ Convert rotations to radians and ppm scale to a factor</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="_eNtoLat" id="__eNtoLat">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__eNtoLat">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#713-751" title="Go to source code">_eNtoLat</a>( <span> <var>$East</var></span>, <span> <var>$North</var></span>, <span>string <var>$a</var></span>, <span>string <var>$b</var></span>, <span>string <var>$e0</var></span>, <span>string <var>$n0</var></span>, <span>integer <var>$f0</var></span>, <span>float <var>$PHI0</var></span>, <span>float <var>$LAM0</var></span> )</code>
-
-			<div class="description short">
-				<p>Un-project Transverse Mercator eastings and northings back to latitude.</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Un-project Transverse Mercator eastings and northings back to latitude.</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$East</var></dt>
-						<dd>in metres</dd>
-						<dt><var>$North</var></dt>
-						<dd>in metres</dd>
-						<dt><var>$a</var></dt>
-						<dd>ellipsoid axis in metres</dd>
-						<dt><var>$b</var></dt>
-						<dd>ellipsoid axis in metres</dd>
-						<dt><var>$e0</var></dt>
-						<dd>eastings false origin</dd>
-						<dt><var>$n0</var></dt>
-						<dd>northings false origin</dd>
-						<dt><var>$f0</var></dt>
-						<dd>central meridian scale factor</dd>
-						<dt><var>$PHI0</var></dt>
-						<dd>latitude of false origin in dec degrees</dd>
-						<dt><var>$LAM0</var></dt>
-						<dd>longitude of false origin in dec degrees</dd>
-					</dl></div>
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="_marc" id="__marc">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__marc">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#801-819" title="Go to source code">_marc</a>( <span> <var>$bFo</var></span>, <span> <var>$n</var></span>, <span> <var>$P1</var></span>, <span> <var>$P2</var></span> )</code>
-
-			<div class="description short">
-				<p>Function for computing the meridional arc - used internally</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Function for computing the meridional arc - used internally</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$bFo</var></dt>
-						<dd></dd>
-						<dt><var>$n</var></dt>
-						<dd></dd>
-						<dt><var>$P1</var></dt>
-						<dd></dd>
-						<dt><var>$P2</var></dt>
-						<dd></dd>
-					</dl></div>
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 		<tr data-order="_phid" id="__phid">
 
 			<td class="attributes"><code>
@@ -1502,7 +1580,7 @@ Convert rotations to radians and ppm scale to a factor</p>
 
 			<td class="name"><div>
 			<a class="anchor" href="#__phid">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#821-841" title="Go to source code">_phid</a>( <span> <var>$gridX</var></span>, <span> <var>$N0</var></span>, <span> <var>$aFo</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$n</var></span>, <span> <var>$bFo</var></span> )</code>
+			<code><a href="source-class-Pas_Geo_Gridcalc.html#1012-1033" title="Go to source code">_phid</a>( <span> <var>$gridX</var></span>, <span> <var>$N0</var></span>, <span> <var>$aFo</var></span>, <span> <var>$PHI0</var></span>, <span> <var>$n</var></span>, <span> <var>$bFo</var></span> )</code>
 
 			<div class="description short">
 				<p>Internal function used in Grid Calc</p>
@@ -1535,98 +1613,6 @@ Convert rotations to radians and ppm scale to a factor</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="_convertLatLonUtm" id="__convertLatLonUtm">
-
-			<td class="attributes"><code>
-				 public 
-				array
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__convertLatLonUtm">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#843-923" title="Go to source code">_convertLatLonUtm</a>( <span>float <var>$lat</var></span>, <span>float <var>$lon</var></span>, <span>float <var>$longOrigin</var> = <span class="php-keyword1">null</span></span> )</code>
-
-			<div class="description short">
-				<p>Convert Longitude/Latitude to UTM
-This is derived from equations produced on the USGS Bulletin 1532
-Be aware that easterly longitudes are positive (eg +52) and westerly longitudes are negative (eg -10)
-Northerly latitudes are positive and southerly latitudes are negative</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Convert Longitude/Latitude to UTM
-This is derived from equations produced on the USGS Bulletin 1532
-Be aware that easterly longitudes are positive (eg +52) and westerly longitudes are negative (eg -10)
-Northerly latitudes are positive and southerly latitudes are negative</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$lat</var></dt>
-						<dd>Decimal latitude</dd>
-						<dt><var>$lon</var></dt>
-						<dd>Decimal longitude</dd>
-						<dt><var>$longOrigin</var></dt>
-						<dd></dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						array<br>$UTM The UTM coordinates and the zone
-					</div>
-
-
-					<h4>See</h4>
-					<div class="list">
-							http://www.uwgb.edu/dutchs/usefuldata/utmformulas.htm<br>
-					</div>
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="_decimalToOrdinalCoords" id="__decimalToOrdinalCoords">
-
-			<td class="attributes"><code>
-				 public 
-				array
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#__decimalToOrdinalCoords">#</a>
-			<code><a href="source-class-Pas_Geo_Gridcalc.html#977-1011" title="Go to source code">_decimalToOrdinalCoords</a>( <span>float <var>$lat</var></span>, <span>float <var>$lon</var></span> )</code>
-
-			<div class="description short">
-				<p>Convert a latlon pair to ordinal coordinates</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Convert a latlon pair to ordinal coordinates</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$lat</var></dt>
-						<dd>latitude to convert</dd>
-						<dt><var>$lon</var></dt>
-						<dd>longitude to convert</dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						array<br>ordinal coordinates
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
 			</table>
 		</div>
 
@@ -1645,7 +1631,7 @@ Northerly latitudes are positive and southerly latitudes are negative</p>
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-Pas_Geo_Gridcalc.html#28-32" title="Go to source code"><b>PI</b></a>
+						<a href="source-class-Pas_Geo_Gridcalc.html#30-34" title="Go to source code"><b>PI</b></a>
 					</code>
 
 					<div class="description short">
@@ -1673,106 +1659,6 @@ Northerly latitudes are positive and southerly latitudes are negative</p>
 		<div class="panel panel-default">
             <div class="panel-heading"><h2>Properties summary</h2></div>
 			<table class="summary table table-bordered table-striped properties" id="properties">
-		<tr data-order="_gridref" id="$_gridref">
-			<td class="attributes"><code>
-				protected  
-				string
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Pas_Geo_Gridcalc.html#34-38" title="Go to source code"><var>$_gridref</var></a>
-
-				<div class="description short">
-					<p>The grid reference to query.</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>The grid reference to query.</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_gridref" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-		<tr data-order="_a" id="$_a">
-			<td class="attributes"><code>
-				protected  
-				integer
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Pas_Geo_Gridcalc.html#40-43" title="Go to source code"><var>$_a</var></a>
-
-				<div class="description short">
-					<p>Equatorial Radius</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Equatorial Radius</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_a" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-		<tr data-order="_e2" id="$_e2">
-			<td class="attributes"><code>
-				protected  
-				integer
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Pas_Geo_Gridcalc.html#45-48" title="Go to source code"><var>$_e2</var></a>
-
-				<div class="description short">
-					<p>Square of eccentricity</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Square of eccentricity</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_e2" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-		<tr data-order="_datum" id="$_datum">
-			<td class="attributes"><code>
-				protected  
-				string
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-Pas_Geo_Gridcalc.html#50-53" title="Go to source code"><var>$_datum</var></a>
-
-				<div class="description short">
-					<p>Select your datum to use</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Select your datum to use</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$_datum" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
 		<tr data-order="ellipsoid" id="$ellipsoid">
 			<td class="attributes"><code>
 				public static 
@@ -1780,7 +1666,7 @@ Northerly latitudes are positive and southerly latitudes are negative</p>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-Pas_Geo_Gridcalc.html#55-85" title="Go to source code"><var>$ellipsoid</var></a>
+					<a href="source-class-Pas_Geo_Gridcalc.html#35-65" title="Go to source code"><var>$ellipsoid</var></a>
 
 				<div class="description short">
 					<p>Array of ellipsoids</p>
@@ -1825,6 +1711,106 @@ Northerly latitudes are positive and southerly latitudes are negative</p>
 				</div>
 			</td>
 		</tr>
+		<tr data-order="_gridref" id="$_gridref">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Pas_Geo_Gridcalc.html#66-70" title="Go to source code"><var>$_gridref</var></a>
+
+				<div class="description short">
+					<p>The grid reference to query.</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The grid reference to query.</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_gridref" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_a" id="$_a">
+			<td class="attributes"><code>
+				protected  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Pas_Geo_Gridcalc.html#71-74" title="Go to source code"><var>$_a</var></a>
+
+				<div class="description short">
+					<p>Equatorial Radius</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Equatorial Radius</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_a" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_e2" id="$_e2">
+			<td class="attributes"><code>
+				protected  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Pas_Geo_Gridcalc.html#75-78" title="Go to source code"><var>$_e2</var></a>
+
+				<div class="description short">
+					<p>Square of eccentricity</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Square of eccentricity</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_e2" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_datum" id="$_datum">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Pas_Geo_Gridcalc.html#79-82" title="Go to source code"><var>$_datum</var></a>
+
+				<div class="description short">
+					<p>Select your datum to use</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Select your datum to use</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_datum" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
 			</table>
 		</div>
 
@@ -1837,7 +1823,7 @@ Northerly latitudes are positive and southerly latitudes are negative</p>
 	</div>
 
 	<div id="footer">
-		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+		Portable Antiquities Scheme documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
 <script src="resources/combined.js"></script>
